@@ -1,0 +1,1433 @@
+drug_concept_name	rxcui	atc	atc_class_name	drug_cost_per_day	UMLS_CUI	DrugBankID
+17-alpha-hydroxyprogesterone	5542	G03DA03	Sex hormones and modulators of the genital system	NA	C0045010	DB06789
+abacavir	190521	J05AF06	Antivirals for systemic use	29.43	C0663655	DB01048
+abarelix	301739	L02BX01	Endocrine therapy	NA	C0965390	DB00106
+abatacept	614391	L04AA24	Immunosuppressants	81.68	C1619966	DB01281
+abciximab	83929	B01AC13	Antithrombotic agents	23.15	C0288672	DB00054
+abiraterone	1100072	L02BX03	Endocrine therapy	205.78	C0754011	DB05812
+acamprosate	82819	N07BB03	Other nervous system drugs	4.35	C0284941	DB00659
+acarbose	16681	A10BF01	Drugs used in diabetes	1.77	C0050393	DB00284
+acebutolol	149	C07AB04	Beta blocking agents	0.66	C0000946	DB01193
+acenocoumarol	154	B01AA07	Antithrombotic agents	NA	C0000956	DB01418
+acepromazine	155	N05AA04	Psycholeptics	0	C0000959	DB01614
+acetaminophen	161	N02BE01	Analgesics	1.39	C0000970	DB00316
+acetazolamide	167	S01EC01	Ophthalmologicals	2.58	C0000981	DB00819
+acetic acid	168	S02AA10	Otologicals	7.98	C0000983	DB03166
+acetohexamide	173	A10BB31	Drugs used in diabetes	NA	C0000992	NA
+acetohydroxamic acid	16728	G04BX03	Urologicals	3.22	C0050451	DB00551
+acetophenazine	16735	N05AB07	Psycholeptics	NA	C0050458	DB01063
+acetylcholine	194	S01EB09	Ophthalmologicals	7.84	C0001041	DB03128
+acetylcysteine	197	S01XA08	Ophthalmologicals	3.39	C0001047	DB06151
+acetyldigitoxin	132871	C01AA01	Cardiac therapy	NA	C0520442	DB00511
+acitretin	16818	D05BB02	Antipsoriatics	37.81	C0050559	DB00459
+aclidinium	1303098	R03BB05	Drugs for obstructive airway diseases	10.68	C2699757	DB08897
+acrivastine	19959	R06AX18	Antihistamines for systemic use	4.89	C0054340	DB09488
+acyclovir	281	D06BB03	Antibiotics and chemotherapeutics for dermatological use	5.06	C0001367	DB00787
+adalimumab	327361	L04AB04	Immunosuppressants	78.8	C1122087	DB00051
+adapalene	60223	D10AD03	Anti-acne preparations	7.66	C0165631	DB00210
+adefovir	16521	J05AF08	Antivirals for systemic use	24.71	C0050175	DB00718
+adenosine	296	C01EB10	Cardiac therapy	4.77	C0001443	DB00640
+agalsidase beta	338817	A16AB04	Other alimentary tract and metabolism products	808.42	C1137427	DB00103
+ajmaline	423	C01BA05	Cardiac therapy	NA	C0001888	DB01426
+albendazole	430	P02CA03	Anthelmintics	51.36	C0001911	DB00518
+albuterol	435	R03AC02	Drugs for obstructive airway diseases	2.08	C0001927	DB01001
+alcaftadine	1000082	S01GX11	Ophthalmologicals	4.98	C2348241	DB06766
+alclometasone	108088	S01BA10	Ophthalmologicals	2.14	C0360534	DB00240
+aldesleukin	70223	L03AC01	Immunostimulants	289.39	C0218986	DB00041
+alefacept	299635	L04AA15	Immunosuppressants	139.41	C0962603	DB00092
+alemtuzumab	117055	L04AA34	Immunosuppressants	737.72	C0383429	DB00087
+alendronate	46041	M05BA04	Drugs for treatment of bone diseases	1.05	C0102118	DB00630
+alfacalcidol	12062	A11CC03	Vitamins	NA	C0044410	DB01436
+alfentanil	480	N01AH02	Anesthetics	2.35	C0002026	DB00802
+alfuzosin	17300	G04CA01	Urologicals	2.4	C0051150	DB00346
+alglucerase	46049	A16AB01	Other alimentary tract and metabolism products	284.12	C0102139	DB00088
+alglucosidase alfa	629565	A16AB07	Other alimentary tract and metabolism products	2411.17	C1695579	DB01272
+aliskiren	325646	C09XA02	Agents acting on the renin-angiotensin system	2.93	C1120110	DB09026
+alitretinoin	81864	D11AH04	Other dermatological preparations	110.44	C0281666	DB00523
+alizapride	17311	A03FA05	Drugs for functional gastrointestinal disorders	NA	C0051162	DB01425
+allopurinol	519	M04AA01	Antigout preparations	0.15	C0002144	DB00437
+allylestrenol	525	G03DC01	Sex hormones and modulators of the genital system	NA	C0002158	DB01431
+almitrine	528	R07AB07	Other respiratory system products	NA	C0002164	DB01430
+almotriptan	279645	N02CC05	Analgesics	18.55	C0914729	DB00918
+aloe polysaccharide	476786	NA	NA	NA	C1509940	NA
+alogliptin	1368001	A10BH04	Drugs used in diabetes	9.11	C1958126	DB06203
+alosetron	85248	A03AE01	Drugs for functional gastrointestinal disorders	33.33	C0291772	DB00969
+alprazolam	596	N05BA12	Psycholeptics	0.4	C0002333	DB00404
+alprenolol	597	C07AA01	Beta blocking agents	NA	C0002334	DB00866
+alprostadil	598	C01EA01	Cardiac therapy	33.64	C0002335	DB00770
+alteplase	8410	S01XA13	Ophthalmologicals	290.96	C0032143	DB00009
+altretamine	5296	L01XX03	Antineoplastic agents	65.47	C0019453	DB00488
+aluminum chloride	46241	D10AX01	Anti-acne preparations	0.33	C0102840	NA
+alverine	17627	A03AX08	Drugs for functional gastrointestinal disorders	NA	C0051528	DB01616
+alvimopan	480639	A06AH02	Drugs for constipation	107.69	C1508750	DB06274
+amantadine	620	N04BB01	Anti-parkinson drugs	1.64	C0002403	DB00915
+ambenonium	623	N07AA30	Other nervous system drugs	7.23	C0002412	DB01122
+ambrisentan	358274	C02KX02	Antihypertensives	191.27	C1176329	DB06403
+amcinonide	17652	D07AC11	Corticosteroids, dermatological preparations	3.95	C0051556	DB00288
+amifostine	4126	V03AF05	All other therapeutic products	248.7	C0015020	DB01143
+amikacin	641	S01AA21	Ophthalmologicals	15.19	C0002499	DB00479
+amiloride	644	C03DB01	Diuretics	0.55	C0002502	DB00594
+aminoglutethimide	677	L02BG01	Endocrine therapy	6.78	C0002555	DB00357
+aminolevulinic acid	683	L01XD04	Antineoplastic agents	221.96	C0002563	DB00855
+aminophylline	689	R03DA05	Drugs for obstructive airway diseases	0.43	C0002575	DB01223
+aminosalicylic acid	7833	J04AA01	Antimycobacterials	5.12	C0030125	DB00233
+amiodarone	703	C01BD01	Cardiac therapy	0.72	C0002598	DB01118
+amisulpride	46303	N05AL05	Psycholeptics	NA	C0103045	DB06288
+amitriptyline	704	N06AA09	Psychoanaleptics	0.18	C0002600	DB00321
+amlexanox	46307	R03DX01	Drugs for obstructive airway diseases	2.97	C0103049	DB01025
+amlodipine	17767	C08CA01	Calcium channel blockers	1.19	C0051696	DB00381
+amobarbital	719	N05CA02	Psycholeptics	NA	C0002640	DB01351
+amodiaquine	720	P01BA06	Antiprotozoals	0.81	C0002641	DB00613
+amoxapine	722	N06AA17	Psychoanaleptics	1.34	C0002644	DB00543
+amoxicillin	723	J01CA04	Antibacterials for systemic use	1.69	C0002645	DB01060
+amphetamine	725	N06BA01	Psychoanaleptics	4.06	C0002658	DB00182
+amphotericin b	732	J02AA01	Antimycotics for systemic use	27.49	C0002679	DB00681
+ampicillin	733	J01CA01	Antibacterials for systemic use	0.87	C0002680	DB00415
+amprenavir	228656	J05AE05	Antivirals for systemic use	8.44	C0754188	DB00701
+amsacrine	739	L01XX01	Antineoplastic agents	NA	C0002699	DB00276
+amyl nitrite	742	V03AB22	All other therapeutic products	2.68	C0002711	DB01612
+anagrelide	596724	L01XX35	Antineoplastic agents	4.28	C0051809	DB00261
+anakinra	72435	L04AC03	Immunosuppressants	63.84	C0245109	DB00026
+anastrozole	84857	L02BG03	Endocrine therapy	4.43	C0290883	DB01217
+anidulafungin	341018	J02AX06	Antimycotics for systemic use	208.1	C1142738	DB00362
+anileridine	17933	N01AH05	Anesthetics	NA	C0051908	DB00913
+aniracetam	17939	N06BX11	Psychoanaleptics	NA	C0051917	NA
+anistreplase	40028	B01AD03	Antithrombotic agents	NA	C0078956	DB00029
+antazoline	865	R06AX05	Antihistamines for systemic use	NA	C0003143	DB08799
+anthralin	873	D05AC01	Antipsoriatics	8.13	C0003166	NA
+antipyrine	1001	N02BB01	Analgesics	1.44	C0003420	DB01435
+apixaban	1364430	B01AF02	Antithrombotic agents	9.14	C1831808	DB06605
+apomorphine	1043	N04BC07	Anti-parkinson drugs	351.34	C0003596	DB00714
+apraclonidine	14845	S01EA03	Ophthalmologicals	5.06	C0048038	DB00964
+apremilast	1492727	L04AA32	Immunosuppressants	62.6	C1678805	DB05676
+aprepitant	358255	A04AD12	Antiemetics and antinauseants	74.57	C1176306	DB00673
+aprindine	1054	C01BB04	Cardiac therapy	NA	C0003639	DB01429
+aprobarbital	17381	N05CA05	Psycholeptics	NA	C0051241	DB01352
+aprotinin	1056	B02AB01	Antihemorrhagics	65.73	C0003641	DB06692
+arbutamine	61609	C01CA22	Cardiac therapy	NA	C0172021	DB01102
+arformoterol	304962	R03	Drugs for obstructive airway diseases	12.49	C0969589	DB01274
+argatroban	15202	B01AE03	Antithrombotic agents	288.14	C0048470	DB00278
+aripiprazole	89013	N05AX12	Psycholeptics	19.3	C0299792	DB01238
+armodafinil	641465	N06BA13	Psychoanaleptics	12.86	C1701455	DB06413
+arsenic trioxide	18330	L01XX27	Antineoplastic agents	261.79	C0052416	DB01169
+artemether	18343	P01BE02	Antiprotozoals	19.06	C0052429	DB06697
+asenapine	784649	N05AH05	Psycholeptics	15.6	C2000088	DB06216
+asparaginase	1156	L01XX02	Antineoplastic agents	6.62	C0003993	DB00023
+aspirin	1191	N02BA01	Analgesics	3.82	C0004057	DB00945
+astemizole	42328	R06AX11	Antihistamines for systemic use	NA	C0085170	DB00637
+atazanavir	343047	J05AE08	Antivirals for systemic use	30.76	C1145759	DB01072
+atenolol	1202	C07AB03	Beta blocking agents	0.16	C0004147	DB00335
+atomoxetine	38400	N06BA09	Psychoanaleptics	6.47	C0076823	DB00289
+atorvastatin	83367	C10AA05	Lipid modifying agents	2.53	C0286651	DB01076
+atovaquone	60212	P01AX06	Antiprotozoals	10.12	C0165603	DB01117
+atracurium	1218	M03AC04	Muscle relaxants	9.67	C0004234	NA
+atropine	1223	A03BA01	Drugs for functional gastrointestinal disorders	1.33	C0004259	DB00572
+attapulgite	18516	A07BC04	Antidiarrheals, intestinal anti-inflammatory/anti-infective agents	0.43	C0052657	DB01574
+auranofin	1227	M01CB03	Anti-inflammatory and antirheumatic products	14.49	C0004320	DB00995
+avanafil	1291301	G04BE10	Urologicals	18.07	C2698280	DB06237
+axitinib	1242999	L01XE17	Antineoplastic agents	322.23	C1700874	DB06626
+azacitidine	1251	L01BC07	Antineoplastic agents	372.87	C0004475	DB00928
+azatadine	18600	R06AX09	Antihistamines for systemic use	1.48	C0052759	DB00719
+azathioprine	1256	L04AX01	Immunosuppressants	1.15	C0004482	DB00993
+azelastine	18603	R06AX19	Antihistamines for systemic use	3.11	C0052762	DB00972
+azelate	618278	D10AX03	Anti-acne preparations	NA	C1291212	NA
+azidocillin	18609	J01CE04	Antibacterials for systemic use	NA	C0052772	DB08795
+azilsartan	1091643	C09CA09	Agents acting on the renin-angiotensin system	3.2	C1958569	DB08822
+azithromycin	18631	J01FA10	Antibacterials for systemic use	3.51	C0052796	DB00207
+azlocillin	1266	J01CA09	Antibacterials for systemic use	NA	C0004499	DB01061
+aztreonam	1272	J01DF01	Antibacterials for systemic use	178.6	C0004521	DB00355
+bacampicillin	18687	J01CA06	Antibacterials for systemic use	NA	C0052865	DB01602
+bacitracin	1291	D06AX05	Antibiotics and chemotherapeutics for dermatological use	3.38	C0004599	DB00626
+baclofen	1292	M03BX01	Muscle relaxants	0.86	C0004609	DB00181
+balsalazide	18747	A07EC04	Antidiarrheals, intestinal anti-inflammatory/anti-infective agents	5.43	C0052940	DB01014
+bambuterol	18751	R03CC12	Drugs for obstructive airway diseases	NA	C0052944	DB01408
+barbital	1325	N05CA04	Psycholeptics	3.88	C0004743	NA
+basiliximab	196102	L04AC02	Immunosuppressants	194.67	C0676831	DB00074
+bazedoxifene	1441386	G03XC02	Sex hormones and modulators of the genital system	3.72	C2346970	DB06401
+becaplermin	115238	D03AX06	Preparations for treatment of wounds and ulcers	53.33	C0379135	DB00102
+beclomethasone	1347	A07EA07	Antidiarrheals, intestinal anti-inflammatory/anti-infective agents	3.77	C0004905	DB00394
+belimumab	1092437	L04AA26	Immunosuppressants	97.92	C1723401	DB08879
+benazepril	18867	C09AA07	Agents acting on the renin-angiotensin system	1.51	C0053091	DB00542
+bendroflumethiazide	1369	C03AA01	Diuretics	2.06	C0004975	DB00436
+bentiromide	18896	V04CK03	Diagnostic agents	NA	C0053122	NA
+benzoate	70589	P03AX01	Ectoparasiticides, including scabicides, insecticides and repellents	18.02	C0220795	NA
+benzocaine	1399	R02AD01	Throat preparations	1.46	C0005059	DB01086
+benzonatate	18993	R05DB01	Cough and cold preparations	1.29	C0053229	DB00868
+benzoyl peroxide	1418	D10AE01	Anti-acne preparations	6.01	C0005088	DB09096
+benzphetamine	1422	A08	Antiobesity preparations, excluding diet products	2.65	C0005096	DB00865
+benztropine	1424	N04AC01	Anti-parkinson drugs	0.24	C0005098	DB00245
+benzyl benzoate	19044	P03AX01	Ectoparasiticides, including scabicides, insecticides and repellents	0.48	C0053289	DB00676
+bepotastine	863035	NA	NA	6.52	C2698371	DB04890
+bepridil	1436	C08EA02	Calcium channel blockers	NA	C0005116	DB01244
+besifloxacin	819911	S01AE08	Ophthalmologicals	6.59	C2351042	DB06771
+betahistine	1511	N07CA01	Other nervous system drugs	4.39	C0005301	DB06698
+betaine	1512	A16AA06	Other alimentary tract and metabolism products	37.9	C0005304	DB06756
+betamethasone	1514	D07XC01	Corticosteroids, dermatological preparations	3.97	C0005308	DB00443
+betaxolol	1520	S01ED02	Ophthalmologicals	2.82	C0005320	DB00195
+bethanechol	19257	N07AB02	Other nervous system drugs	2.24	C0053526	DB01019
+bevacizumab	253337	L01XC07	Antineoplastic agents	270.69	C0796392	DB00112
+bexarotene	233272	L01XX25	Antineoplastic agents	182.2	C0765273	DB00307
+bezafibrate	1525	C10AB02	Lipid modifying agents	NA	C0005330	DB01393
+bicalutamide	83008	L02BB03	Endocrine therapy	7.01	C0285590	DB01128
+bifonazole	19295	D01AC10	Antifungals for dermatological use	NA	C0053570	DB04794
+bimatoprost	283810	S01EE03	Ophthalmologicals	3.71	C0937917	DB00905
+biotin	1588	A11HA05	Vitamins	1.6	C0005575	DB00121
+biperiden	1589	N04AA02	Anti-parkinson drugs	1.1	C0005578	DB00810
+bisacodyl	1596	A06AB02	Drugs for constipation	38.54	C0005632	DB09020
+bismuth subcitrate	47181	A02BX05	Drugs for acid related disorders	NA	C0106556	DB09275
+bismuth subsalicylate	19478	NA	NA	0.61	C0053792	DB01294
+bisoprolol	19484	C07AB07	Beta blocking agents	0.42	C0053799	DB00612
+bitolterol	19499	R03AC17	Drugs for obstructive airway diseases	NA	C0053817	NA
+bivalirudin	60819	B01AE06	Antithrombotic agents	1.8	C0168273	DB00006
+bleomycin	1622	L01DC01	Antineoplastic agents	30.56	C0005740	DB00290
+boceprevir	1102129	J05AE12	Antivirals for systemic use	161.98	C1738934	DB08873
+bopindolol	19605	C07AA17	Beta blocking agents	NA	C0053941	DB08807
+bortezomib	358258	L01XX32	Antineoplastic agents	411.66	C1176309	DB00188
+bosentan	75207	C02KX01	Antihypertensives	180.83	C0252643	DB00559
+botulinum toxin type a	1712	NA	NA	NA	C0006050	DB00083
+brimonidine	134615	S01EA05	Ophthalmologicals	3.17	C0525227	DB00484
+brinzolamide	194881	S01EC04	Ophthalmologicals	3.14	C0673966	DB01194
+bromazepam	1749	N05BA08	Psycholeptics	NA	C0006213	DB01558
+bromfenac	19737	S01BC11	Ophthalmologicals	8	C0054094	DB00963
+bromocriptine	1760	N04BC01	Anti-parkinson drugs	3.81	C0006230	DB01200
+brompheniramine	1767	R06AB01	Antihistamines for systemic use	2.68	C0006246	DB00835
+buclizine	59636	R06AE01	Antihistamines for systemic use	NA	C0164386	DB00354
+budesonide	19831	A07EA06	Antidiarrheals, intestinal anti-inflammatory/anti-infective agents	8.49	C0054201	DB01222
+bumetanide	1808	C03CA02	Diuretics	0.37	C0006376	DB00887
+bupivacaine	1815	N01BB01	Anesthetics	22.32	C0006400	DB00297
+bupranolol	1817	C07AA19	Beta blocking agents	NA	C0006403	DB08808
+buprenorphine	1819	N02AE01	Analgesics	12.1	C0006405	DB00921
+bupropion	42347	N06AX12	Psychoanaleptics	2.05	C0085208	DB01156
+buserelin	1825	L02AE01	Endocrine therapy	NA	C0006456	DB06719
+buspirone	1827	N05BE01	Psycholeptics	0.68	C0006462	DB00490
+busulfan	1828	L01AB01	Antineoplastic agents	46.04	C0006463	DB01008
+butalbital	19860	N05CA	Psycholeptics	2.28	C0054234	DB00241
+butenafine	47461	D01AE23	Antifungals for dermatological use	6.92	C0107497	DB01091
+butoconazole	19884	G01AF15	Gynecological antiinfectives and antiseptics	35.9	C0054259	DB00639
+butorphanol	1841	N02AF01	Analgesics	6.16	C0006491	DB00611
+c1 esterase inhibitor	1599832	B06AC01	Other hematological agents	1856.71	C0540301	NA
+cabergoline	47579	N04BC06	Anti-parkinson drugs	5.97	C0107994	DB00248
+cadexomer iodine	20012	D03AX01	Preparations for treatment of wounds and ulcers	8.16	C0054409	NA
+caffeine	1886	N06BC01	Psychoanaleptics	2.23	C0006644	DB00201
+calcipotriene	29365	D05AX02	Antipsoriatics	20.6	C0065767	DB02300
+calcitriol	1894	D05AX03	Antipsoriatics	2.62	C0006674	DB00136
+canagliflozin	1373458	A10BX11	Drugs used in diabetes	9.72	C2974540	DB08907
+canakinumab	853491	L04AC08	Immunosuppressants	562.7	C2718773	DB06168
+candesartan	214354	C09CA06	Agents acting on the renin-angiotensin system	2.41	C0717550	DB00796
+capecitabine	194000	L01BC06	Antineoplastic agents	97.65	C0671970	DB01101
+capreomycin	78903	J04AB30	Antimycobacterials	0	C0262964	DB00314
+capsaicin	1992	M02AB01	Topical products for joint and muscular pain	59.94	C0006931	DB06774
+captopril	1998	C09AA01	Agents acting on the renin-angiotensin system	0.38	C0006938	DB01197
+carbachol	1999	S01EB02	Ophthalmologicals	1.36	C0006945	DB00411
+carbamazepine	2002	N03AF01	Antiepileptics	2.02	C0006949	DB00564
+carbenicillin	2015	J01CA03	Antibacterials for systemic use	10.99	C0006976	DB00578
+carbenoxolone	2017	A02BX01	Drugs for acid related disorders	NA	C0006979	NA
+carbidopa	2019	N04BA02	Anti-parkinson drugs	2.12	C0006982	DB00190
+carbimazole	2020	H03BB01	Thyroid therapy	0.37	C0006983	DB00389
+carbinoxamine	20220	R06AA08	Antihistamines for systemic use	1.4	C0054672	DB00748
+carboplatin	40048	L01XA02	Antineoplastic agents	14.62	C0079083	DB00958
+carglumic acid	401713	A16AA05	Other alimentary tract and metabolism products	1783.94	C1318649	DB06775
+carisoprodol	2101	M03BA02	Muscle relaxants	0.83	C0007248	DB00395
+carmustine	2105	L01AD01	Antineoplastic agents	36.22	C0007257	DB00262
+carteolol	2116	S01ED05	Ophthalmologicals	0.56	C0007299	DB00521
+carvedilol	20352	C07AG02	Beta blocking agents	1	C0054836	DB01136
+caspofungin	140108	J02AX04	Antimycotics for systemic use	329.02	C0537894	DB00520
+castor oil	2129	A06AB05	Drugs for constipation	4.89	C0007343	NA
+cathine	32022	A08AA07	Antiobesity preparations, excluding diet products	NA	C0069021	NA
+cefaclor	2176	J01DC04	Antibacterials for systemic use	3.06	C0007537	DB00833
+cefadroxil	2177	J01DB05	Antibacterials for systemic use	2.65	C0007538	DB01140
+cefamandole	2178	J01DC03	Antibacterials for systemic use	NA	C0007541	DB01326
+cefazolin	2180	J01DB04	Antibacterials for systemic use	10.65	C0007546	DB01327
+cefdinir	25037	J01DD15	Antibacterials for systemic use	5.67	C0060405	DB00535
+cefditoren	83682	J01DD16	Antibacterials for systemic use	17.33	C0287573	DB01066
+cefepime	20481	J01DE01	Antibacterials for systemic use	44.13	C0055003	DB01413
+cefixime	25033	J01DD08	Antibacterials for systemic use	19.44	C0060400	DB00671
+cefmetazole	2182	J01DC09	Antibacterials for systemic use	NA	C0007550	DB00274
+cefonicid	2183	J01DC06	Antibacterials for systemic use	NA	C0007551	DB01328
+cefoperazone	2184	J01DD12	Antibacterials for systemic use	NA	C0007552	DB01329
+ceforanide	20486	J01DC11	Antibacterials for systemic use	NA	C0055008	DB00923
+cefotaxime	2186	J01DD01	Antibacterials for systemic use	12.68	C0007554	DB00493
+cefotetan	2187	J01DC05	Antibacterials for systemic use	60.38	C0007555	DB01330
+cefotiam	2188	J01DC07	Antibacterials for systemic use	NA	C0007556	DB00229
+cefoxitin	2189	J01DC01	Antibacterials for systemic use	24.91	C0007557	DB01331
+cefpodoxime	20489	J01DD13	Antibacterials for systemic use	8.75	C0055011	DB01416
+cefprozil	19552	J01DC10	Antibacterials for systemic use	5.09	C0053882	DB01150
+ceftazidime	2191	J01DD02	Antibacterials for systemic use	21.68	C0007559	DB00438
+ceftibuten	20492	J01DD14	Antibacterials for systemic use	22.27	C0055014	DB01415
+ceftizoxime	2192	J01DD07	Antibacterials for systemic use	19.69	C0007560	DB01332
+ceftriaxone	2193	J01DD04	Antibacterials for systemic use	16.96	C0007561	DB01212
+cefuroxime	2194	S01AA27	Ophthalmologicals	2.59	C0007562	DB01112
+celecoxib	140587	L01XX33	Antineoplastic agents	4.99	C0538927	DB00482
+cephalexin	2231	J01DB01	Antibacterials for systemic use	0.97	C0007716	DB00567
+certolizumab pegol	709271	L04AB05	Immunosuppressants	87.22	C1872109	DB08904
+cetirizine	20610	R06AE07	Antihistamines for systemic use	1.75	C0055147	DB00341
+cetrorelix	68147	H01CC02	Pituitary and hypothalamic hormones and analogues	132.08	C0209366	DB00050
+cetuximab	318341	L01XC06	Antineoplastic agents	417.63	C0995188	DB00002
+cevimeline	44281	N07AX03	Other nervous system drugs	6.35	C0093437	DB00185
+chlorambucil	2346	L01AA02	Antineoplastic agents	12.27	C0008163	DB00291
+chloramphenicol	2348	G01AA05	Gynecological antiinfectives and antiseptics	5.14	C0008168	DB00446
+chlordiazepoxide	2356	N05BA02	Psycholeptics	1.57	C0008188	DB00475
+chlorhexidine	2358	D09AA12	Medicated dressings	0.29	C0008196	DB00878
+chlormezanone	2373	M03BB02	Muscle relaxants	NA	C0008223	DB01178
+chloroprocaine	20859	N01BA04	Anesthetics	11.02	C0055443	DB01161
+chloropyramine	20861	R06AC03	Antihistamines for systemic use	NA	C0055445	DB08800
+chloroquine	2393	P01BA01	Antiprotozoals	0.95	C0008269	DB00608
+chlorothiazide	2396	C03AA04	Diuretics	0.44	C0008273	DB00880
+chlorotrianisene	2397	G03CA06	Sex hormones and modulators of the genital system	NA	C0008275	NA
+chloroxylenol	20877	D08AE05	Antiseptics and disinfectants	2.22	C0055463	NA
+chlorphenesin	2399	D01AE07	Antifungals for dermatological use	NA	C0008280	DB00856
+chlorpheniramine	2400	R06AB04	Antihistamines for systemic use	3.42	C0008281	DB01114
+chlorpromazine	2403	N05AA01	Psycholeptics	2.16	C0008286	DB00477
+chlorpropamide	2404	A10BB02	Drugs used in diabetes	0.71	C0008287	DB00672
+chlorprothixene	2406	N05AF03	Psycholeptics	NA	C0008290	DB01239
+chlorthalidone	2409	C03BA04	Diuretics	0.31	C0008294	DB00310
+chlorzoxazone	2410	M03BB03	Muscle relaxants	0.96	C0008296	DB00356
+cholestyramine resin	2447	C10AC01	Lipid modifying agents	66.05	C0008402	DB01432
+chorionic gonadotropin	4986	G03GA01	Sex hormones and modulators of the genital system	63.45	C0018062	DB09126
+ciclesonide	274964	R03BA08	Drugs for obstructive airway diseases	5.15	C0907850	DB01410
+ciclopirox	21090	G01AX12	Gynecological antiinfectives and antiseptics	3.3	C0055711	DB01188
+cidofovir	83171	J05AB12	Antivirals for systemic use	119.73	C0286079	DB00369
+cilazapril	21102	C09AA08	Agents acting on the renin-angiotensin system	NA	C0055723	DB01340
+cilostazol	21107	B01AC23	Antithrombotic agents	1.14	C0055729	DB01166
+cimetidine	2541	A02BA01	Drugs for acid related disorders	0.45	C0008783	DB00501
+cinacalcet	407990	H05BX01	Calcium homeostasis	21.04	C1337242	DB01012
+cinnarizine	2549	N07CA02	Other nervous system drugs	NA	C0008803	DB00568
+cinoxacin	2550	J01MB06	Antibacterials for systemic use	NA	C0008806	DB00827
+ciprofloxacin	2551	S02AA15	Otologicals	2.4	C0008809	DB00537
+cisapride	35255	A03FA02	Drugs for functional gastrointestinal disorders	7.62	C0072916	DB00604
+cisplatin	2555	L01XA01	Antineoplastic agents	6.19	C0008838	DB00515
+citalopram	2556	N06AB04	Psychoanaleptics	0.28	C0008845	DB00215
+citric acid	21183	A09AB04	Digestives, including enzymes	30.26	C0055819	NA
+cladribine	44157	L01BB04	Antineoplastic agents	566.65	C0092801	DB00242
+clarithromycin	21212	J01FA09	Antibacterials for systemic use	6.27	C0055856	DB01211
+clavulanate	48203	J01CR02	Antibacterials for systemic use	3.23	C0110038	DB00766
+clemastine	2578	R06AA04	Antihistamines for systemic use	0.61	C0008929	DB00283
+clenbuterol	2580	R03AC14	Drugs for obstructive airway diseases	NA	C0008932	DB01407
+clidinium	21232	A03CA02	Drugs for functional gastrointestinal disorders	2.17	C0055877	DB00771
+clindamycin	2582	G01AA10	Gynecological antiinfectives and antiseptics	4.34	C0008947	DB01190
+clioquinol	5942	G01AC02	Gynecological antiinfectives and antiseptics	4.95	C0021978	NA
+clobazam	21241	N05BA09	Psycholeptics	19.12	C0055891	DB00349
+clobetasol	2590	D07AD01	Corticosteroids, dermatological preparations	4.2	C0008992	NA
+clocortolone	21249	D07AB21	Corticosteroids, dermatological preparations	10.32	C0055899	DB00838
+clofarabine	44151	L01BB06	Antineoplastic agents	NA	C0092777	DB00631
+clofazimine	2592	J04BA01	Antimycobacterials	NA	C0008996	DB00845
+clofibrate	2594	C10AB01	Lipid modifying agents	NA	C0009002	DB00636
+clomiphene	2596	G03GB02	Sex hormones and modulators of the genital system	2.87	C0009008	DB00882
+clomipramine	2597	N06AA04	Psychoanaleptics	3.83	C0009010	DB01242
+clomocycline	21272	J01AA11	Antibacterials for systemic use	NA	C0055923	DB00453
+clonazepam	2598	N03AE01	Antiepileptics	0.37	C0009011	DB01068
+clonidine	2599	N02CX02	Analgesics	0.92	C0009014	DB00575
+clopidogrel	32968	B01AC04	Antithrombotic agents	3.82	C0070166	DB00758
+clorazepate	2353	N05BA05	Psycholeptics	1.02	C0008174	DB00628
+clotiazepam	2622	N05BA21	Psycholeptics	NA	C0009073	DB01559
+clotrimazole	2623	G01AF02	Gynecological antiinfectives and antiseptics	2.47	C0009074	DB00257
+cloxacillin	2625	J01CF02	Antibacterials for systemic use	0.5	C0009077	DB01147
+cloxazolam	21311	N05BA22	Psycholeptics	NA	C0055964	DB01553
+clozapine	2626	N05AH02	Psycholeptics	5.62	C0009079	DB00363
+cobicistat	1306284	V03AX03	All other therapeutic products	6.94	C3177235	DB09065
+cocaine	2653	S02DA02	Otologicals	28.78	C0009170	DB00907
+codeine	2670	R05DA04	Cough and cold preparations	1.28	C0009214	DB00318
+colchicine	2683	M04AC01	Antigout preparations	4.37	C0009262	DB01394
+colesevelam	141626	C10AC04	Lipid modifying agents	6.46	C0541155	DB00930
+colestipol	2685	C10AC02	Lipid modifying agents	1.56	C0009279	DB00375
+colistin	2709	J01XB01	Antibacterials for systemic use	90.98	C0009316	DB00803
+collagenase	58939	D03BA02	Preparations for treatment of wounds and ulcers	21.57	C0162745	NA
+collagenase clostridium histolyticum	898492	M09AB02	Other drugs for disorders of the musculo-skeletal system	NA	C0009053	DB00048
+conivaptan	302285	C03XA02	Diuretics	NA	C0966107	DB00872
+corticotropin	376	H01AA01	Pituitary and hypothalamic hormones and analogues	3141.29	C0001655	DB01285
+cortisone	2878	H02AB10	Corticosteroids for systemic use	0.85	C0010137	NA
+crizotinib	1148495	L01XE16	Antineoplastic agents	343.59	C2974289	DB08865
+cromolyn	42612	A07EB01	Antidiarrheals, intestinal anti-inflammatory/anti-infective agents	4.47	C0086073	DB01003
+crotamiton	21766	D04AX	Antipruritics, including antihistamines, anesthetics, etc.	10.6	C0056519	DB00265
+cyclandelate	2970	C04AX01	Peripheral vasodilators	1.14	C0010525	DB04838
+cyclizine	2977	R06AE03	Antihistamines for systemic use	3.05	C0010547	DB01176
+cyclobenzaprine	21949	M03BX08	Muscle relaxants	0.65	C0056732	DB00924
+cyclopentolate	3001	S01FA04	Ophthalmologicals	1.05	C0010582	DB00979
+cyclophosphamide	3002	L01AA01	Antineoplastic agents	6.69	C0010583	DB00531
+cycloserine	3007	J04AB01	Antimycobacterials	8.49	C0010590	DB00260
+cyclosporine	3008	L04AD01	Immunosuppressants	7.84	C0010592	DB00091
+cyclothiazide	22033	C03AA09	Diuretics	NA	C0056831	DB00606
+cyproheptadine	3013	R06AX02	Antihistamines for systemic use	0.59	C0010620	DB00434
+cyproterone	3014	G03HA01	Sex hormones and modulators of the genital system	NA	C0010621	NA
+cytarabine	3041	L01BC01	Antineoplastic agents	14.66	C0010711	DB00987
+dabigatran etexilate	1037042	B01AE07	Antithrombotic agents	7.74	C1571583	DB06695
+dacarbazine	3098	L01AX04	Antineoplastic agents	14.66	C0010927	DB00851
+daclizumab	190353	L04AC01	Immunosuppressants	351.43	C0663182	DB00111
+dactinomycin	3100	L01DA01	Antineoplastic agents	654.64	C0010934	DB00970
+dalfampridine	897018	N07XX07	Other nervous system drugs	42.77	C0000477	DB06637
+dalteparin	67109	B01AB04	Antithrombotic agents	64.56	C0206461	DB06779
+danazol	3102	G03XA01	Sex hormones and modulators of the genital system	5.85	C0010961	DB01406
+dantrolene	3105	M03CA01	Muscle relaxants	3.58	C0010976	DB01219
+dapagliflozin	1488564	A10BX09	Drugs used in diabetes	10.15	C2353951	DB06292
+dapiprazole	22298	S01EX02	Ophthalmologicals	NA	C0057143	DB00298
+dapsone	3108	J04BA02	Antimycobacterials	8.26	C0010980	DB00250
+daptomycin	22299	J01XX09	Antibacterials for systemic use	302.74	C0057144	DB00080
+darbepoetin alfa	283838	B03XA02	Antianemic preparations	65.94	C0937950	DB00012
+darifenacin	136198	G04BD10	Urologicals	4.22	C0529351	DB00496
+darunavir	460132	J05AE10	Antivirals for systemic use	32.49	C1435444	DB01264
+dasatinib	475342	L01XE06	Antineoplastic agents	236.69	C1455147	DB01254
+daunorubicin	3109	L01DB02	Antineoplastic agents	90.4	C0011015	DB00694
+decitabine	15657	L01BC08	Antineoplastic agents	557.07	C0049065	DB01262
+deferasirox	614373	V03AC03	All other therapeutic products	162.11	C1619629	DB01609
+deferoxamine	3131	V03AC01	All other therapeutic products	29.34	C0011145	DB00746
+degarelix	475230	L02BX02	Endocrine therapy	47.62	C1455035	DB06699
+delavirdine	83816	J05AG02	Antivirals for systemic use	8.8	C0288165	DB00705
+demecarium	107771	S01EB04	Ophthalmologicals	NA	C0360174	DB00944
+demeclocycline	3154	J01AA01	Antibacterials for systemic use	17.64	C0011276	DB00618
+denileukin diftitox	214470	L01XX29	Antineoplastic agents	1339.55	C0717670	DB00004
+denosumab	993449	M05BX04	Drugs for treatment of bone diseases	52.52	C1690432	DB06643
+deserpidine	62174	C02AA05	Antihypertensives	NA	C0175158	DB01089
+desflurane	27340	N01AB07	Anesthetics	NA	C0063252	DB01189
+desipramine	3247	N06AA01	Psychoanaleptics	2.04	C0011685	DB01151
+deslanoside	3248	C01AA07	Cardiac therapy	NA	C0011689	DB01078
+desloratadine	275635	R06AX27	Antihistamines for systemic use	3.33	C0908935	DB00967
+desmopressin	3251	H01BA02	Pituitary and hypothalamic hormones and analogues	5.9	C0011701	DB00035
+desogestrel	22656	G03AC09	Sex hormones and modulators of the genital system	1.03	C0057558	DB00304
+desonide	3254	D07AB08	Corticosteroids, dermatological preparations	3.63	C0011705	DB01260
+desoximetasone	3255	D07AC03	Corticosteroids, dermatological preparations	6.23	C0011707	DB00547
+desvenlafaxine	734064	N06AX23	Psychoanaleptics	4.66	C1880288	DB06700
+dexamethasone	3264	D07XB05	Corticosteroids, dermatological preparations	6.57	C0011777	DB01234
+dexbrompheniramine	22696	R06AB06	Antihistamines for systemic use	2.62	C0057605	DB00405
+dexchlorpheniramine	22697	R06AB02	Antihistamines for systemic use	3.12	C0057606	NA
+dexfenfluramine	3268	A08AA04	Antiobesity preparations, excluding diet products	NA	C0011786	DB01191
+dexlansoprazole	816346	A02BC06	Drugs for acid related disorders	4.54	C2348248	NA
+dexmedetomidine	48937	N05CM18	Psycholeptics	57.14	C0113293	DB00633
+dexmethylphenidate	352372	N06BA11	Psychoanaleptics	4.92	C1169997	DB06701
+dexrazoxane	42736	V03AF02	All other therapeutic products	77.46	C0086444	DB00380
+dextroamphetamine	3288	N06BA02	Psychoanaleptics	4	C0011812	DB01576
+dextromethorphan	3289	R05DA09	Cough and cold preparations	4.44	C0011816	DB00514
+dextromoramide	3290	N02AC01	Analgesics	NA	C0011817	NA
+dextrothyroxine	3292	C10AX01	Lipid modifying agents	NA	C0011824	DB00509
+dezocine	22713	N02AX03	Analgesics	NA	C0057626	DB01209
+diazepam	3322	N05BA01	Psycholeptics	2.62	C0012010	DB00829
+diazoxide	3327	C02DA01	Antihypertensives	21.3	C0012022	DB01119
+dichloralphenazone	22892	N05CC04	Psycholeptics	3.47	C0057831	NA
+diclofenac	3355	M02AA15	Topical products for joint and muscular pain	2.35	C0012091	DB00586
+dicloxacillin	3356	J01CF01	Antibacterials for systemic use	1.95	C0012093	DB00485
+dicyclomine	3361	A03AA07	Drugs for functional gastrointestinal disorders	0.38	C0012125	DB00804
+didanosine	3364	J05AF02	Antivirals for systemic use	6.83	C0012133	DB00900
+dienestrol	3368	G03CB01	Sex hormones and modulators of the genital system	0.95	C0012145	DB00890
+dienogest	22968	G03DB08	Sex hormones and modulators of the genital system	3.06	C0057916	DB09123
+diethylcarbamazine	3384	P02CB02	Anthelmintics	6.56	C0012191	DB00711
+diethylpropion	3389	A08AA03	Antiobesity preparations, excluding diet products	0.86	C0012201	DB00937
+diethylstilbestrol	3390	G03CC05	Sex hormones and modulators of the genital system	1.99	C0012203	DB00255
+difenoxin	23024	A07DA04	Antidiarrheals, intestinal anti-inflammatory/anti-infective agents	6.12	C0057981	DB01501
+diflorasone	91311	D07AC10	Corticosteroids, dermatological preparations	6.2	C0304612	DB00223
+diflunisal	3393	N02BA11	Analgesics	2.27	C0012228	DB00861
+difluprednate	23043	D07AC19	Corticosteroids, dermatological preparations	6.58	C0058004	DB06781
+digitoxin	3403	C01AA04	Cardiac therapy	1.62	C0012258	DB01396
+digoxin	3407	C01AA05	Cardiac therapy	0.22	C0012265	DB00390
+dihydrocodeine	23088	N02AA08	Analgesics	4.24	C0058056	DB01551
+dihydroergotamine	3418	N02CA01	Analgesics	44.24	C0012291	DB00320
+dihydrotachysterol	3429	A11CC02	Vitamins	4.15	C0012319	DB01070
+diloxanide	67182	P01AC01	Antiprotozoals	NA	C0206816	DB08792
+diltiazem	3443	C08DB01	Calcium channel blockers	1.24	C0012373	DB00343
+dimercaprol	3445	V03AB09	All other therapeutic products	NA	C0012383	DB06782
+dimethyl fumarate	1373478	N07XX09	Other nervous system drugs	161.73	C0058218	DB08908
+dimethyl sulfoxide	3455	G04BX13	Urologicals	57.53	C0012403	DB01093
+dinoprostone	3478	G02AD02	Other gynecologicals	62.63	C0012472	DB00917
+diphenhydramine	3498	R06AA02	Antihistamines for systemic use	2.17	C0012522	DB01075
+diphenoxylate	3500	A07DA01	Antidiarrheals, intestinal anti-inflammatory/anti-infective agents	1.14	C0012525	DB01081
+diphenylpyraline	23386	R06AA07	Antihistamines for systemic use	NA	C0058389	DB01146
+dipyridamole	3521	B01AC07	Antithrombotic agents	4.92	C0012582	DB00975
+dirithromycin	23437	J01FA13	Antibacterials for systemic use	NA	C0058445	DB00954
+disopyramide	3541	C01BA03	Cardiac therapy	2.89	C0012702	DB00280
+disulfiram	3554	N07BB01	Other nervous system drugs	3.42	C0012772	DB00822
+dobutamine	3616	C01CA07	Cardiac therapy	10.55	C0012963	DB00841
+docetaxel	72962	L01CD02	Antineoplastic agents	172.81	C0246415	DB01248
+doconexent	1006469	NA	NA	NA	C2348308	NA
+docosahexaenoate	73	NA	NA	NA	C0000464	NA
+docosanol	594680	D06BB11	Antibiotics and chemotherapeutics for dermatological use	1.47	C0075770	DB00632
+docusate	82003	A06AA02	Drugs for constipation	0.08	C1692318	NA
+dofetilide	49247	C01BD04	Cardiac therapy	7.24	C0114771	DB00204
+dolasetron	68091	A04AA04	Antiemetics and antinauseants	56.11	C0209210	DB00757
+dolutegravir	1433868	J05AX12	Antivirals for systemic use	46.32	C3253985	DB08930
+domperidone	3626	A03FA03	Drugs for functional gastrointestinal disorders	4.04	C0013015	DB01184
+donepezil	135447	N06DA02	Psychoanaleptics	3.85	C0527316	DB00843
+dopamine	3628	C01CA04	Cardiac therapy	6.02	C0013030	DB00988
+dornase alfa	337623	R05CB13	Cough and cold preparations	82.8	C1135662	DB00003
+dorzolamide	60207	S01EC03	Ophthalmologicals	2.14	C0165590	DB00869
+doxapram	3637	R07AB01	Other respiratory system products	0.67	C0013084	DB00561
+doxazosin	49276	C02CA04	Antihypertensives	0.32	C0114873	DB00590
+doxepin	3638	N06AA12	Psychoanaleptics	0.75	C0013085	DB01142
+doxercalciferol	11516	H05BX03	Calcium homeostasis	11.55	C0043668	DB06410
+doxorubicin	3639	L01DB01	Antineoplastic agents	45.57	C0013089	DB00997
+doxycycline	3640	J01AA02	Antibacterials for systemic use	3.15	C0013090	DB00254
+doxylamine	3642	R06AA09	Antihistamines for systemic use	14.55	C0013092	DB00366
+dronedarone	233698	C01BD07	Cardiac therapy	8.66	C0766326	DB04855
+droperidol	3648	N05AD08	Psycholeptics	1.45	C0013136	DB00450
+drospirenone	11636	G03AA12	Sex hormones and modulators of the genital system	1.9	C0043822	DB01395
+duloxetine	72625	N06AX21	Psychoanaleptics	5.87	C0245561	DB00476
+dutasteride	228790	G04CB02	Urologicals	3.39	C0754659	DB01126
+dyclonine	23744	N01BX02	Anesthetics	5.46	C0058831	DB00645
+dydrogesterone	3706	G03DB01	Sex hormones and modulators of the genital system	NA	C0013340	DB00378
+echothiophate	89778	S01EB03	Ophthalmologicals	2.91	C0301366	DB01057
+econazole	3743	G01AF05	Gynecological antiinfectives and antiseptics	1.6	C0013547	DB01127
+eculizumab	591781	L04AA25	Immunosuppressants	1311.34	C1541483	DB01257
+efalizumab	356988	L04AA21	Immunosuppressants	61.38	C1174995	DB00095
+efavirenz	195085	J05AG03	Antivirals for systemic use	47.01	C0674428	DB00625
+efinaconazole	1539753	D01AC19	Antifungals for dermatological use	21.91	C3273754	DB09040
+eflornithine	569	D11AX16	Other dermatological preparations	3.46	C0002260	DB06243
+eletriptan	231049	N02CC06	Analgesics	18.2	C0759933	DB00216
+eltrombopag	711942	B02BX05	Antihemorrhagics	152.36	C1831905	DB06210
+elvitegravir	1306286	J05AX11	Antivirals for systemic use	NA	C2606637	DB09101
+emedastine	28144	S01GX06	Ophthalmologicals	4.14	C0064263	DB01084
+empagliflozin	1545653	A10BX12	Drugs used in diabetes	10.07	C3490348	DB09038
+emtricitabine	276237	J05AF09	Antivirals for systemic use	44.23	C0909839	DB00879
+enalapril	3827	C09AA02	Agents acting on the renin-angiotensin system	0.32	C0014025	DB00584
+encainide	42368	C01BC08	Cardiac therapy	NA	C0085251	DB01228
+enflurane	3920	N01AB04	Anesthetics	5.04	C0014277	DB00228
+enfuvirtide	139896	J05AX07	Antivirals for systemic use	103.24	C0537439	DB00109
+enoxacin	3925	J01MA04	Antibacterials for systemic use	NA	C0014310	DB00467
+enoxaparin	67108	B01AB05	Antithrombotic agents	67.23	C0206460	DB01225
+enoximone	49626	C01CE03	Cardiac therapy	NA	C0116190	DB04880
+entacapone	60307	N04BX02	Anti-parkinson drugs	10.28	C0165921	DB00494
+entecavir	306266	J05AF10	Antivirals for systemic use	26.94	C0971023	DB00442
+enzalutamide	1307298	L02BB04	Endocrine therapy	260.01	C3496793	DB08899
+ephedrine	3966	R03CA02	Drugs for obstructive airway diseases	2.05	C0014479	DB01364
+epinastine	39684	R06AX24	Antihistamines for systemic use	3.83	C0078442	DB00751
+epinephrine	3992	A01AD01	Stomatological preparations	76.19	C0014563	DB00668
+epirubicin	3995	L01DB03	Antineoplastic agents	86.55	C0014582	DB00445
+eplerenone	298869	C03DA04	Diuretics	3.45	C0961485	DB00700
+epoetin alfa	105694	B03XA02	Antianemic preparations	45.83	C0357126	DB00016
+epoprostenol	8814	B01AC09	Antithrombotic agents	120.64	C0033567	DB01240
+eprosartan	83515	C09CA02	Agents acting on the renin-angiotensin system	2.77	C0287041	DB00876
+eptifibatide	75635	B01AC16	Antithrombotic agents	1081.34	C0253563	DB00063
+ergocalciferol	4018	A11CC01	Vitamins	0.2	C0014695	DB00153
+ergotamine	4025	N02CA02	Analgesics	3.86	C0014710	DB00696
+erlotinib	337525	L01XE03	Antineoplastic agents	136.77	C1135135	DB00530
+ertapenem	325642	J01DH03	Antibacterials for systemic use	70.94	C1120106	DB00303
+erythromycin	4053	D10AF02	Anti-acne preparations	1.99	C0014806	DB00199
+escitalopram	321988	N06AB10	Psychoanaleptics	2.47	C1099456	DB01175
+esmolol	49737	C07AB09	Beta blocking agents	NA	C0116569	DB00187
+esomeprazole	283742	A02BC05	Drugs for acid related disorders	5.8	C0937846	DB00736
+estazolam	4077	N05CD04	Psycholeptics	0.56	C0014892	DB01215
+estradiol	4083	G03CA03	Sex hormones and modulators of the genital system	1.74	C0014912	DB00783
+estramustine	4089	L01XX11	Antineoplastic agents	19.23	C0014921	DB01196
+estriol	4094	G03CA04	Sex hormones and modulators of the genital system	5.18	C0014927	DB04573
+estrogens, conjugated (usp)	4099	G03CA57	Sex hormones and modulators of the genital system	NA	C0014938	DB00286
+estrogens, esterified (usp)	214549	G03CA07	Sex hormones and modulators of the genital system	NA	C0717752	DB09381
+estrone	4103	G03CA07	Sex hormones and modulators of the genital system	2.27	C0014942	DB00655
+estropipate	33747	G03CA03	Sex hormones and modulators of the genital system	0.3	C0071108	NA
+eszopiclone	461016	N05CF04	Psycholeptics	5.53	C1436328	DB00402
+etanercept	214555	L04AB01	Immunosuppressants	69.57	C0717758	DB00005
+ethacrynate	62349	C03CC01	Diuretics	620.84	C0178626	DB00903
+ethambutol	4110	J04AK02	Antimycobacterials	2.74	C0014964	DB00330
+ethchlorvynol	4118	N05CM08	Psycholeptics	NA	C0014987	DB00189
+ethinyl estradiol	4124	G03CA01	Sex hormones and modulators of the genital system	1.35	C0015011	DB00977
+ethionamide	4127	J04AD03	Antimycobacterials	7.94	C0015021	DB00609
+ethosuximide	4135	N03AD01	Antiepileptics	2.79	C0015043	DB00593
+ethotoin	4136	N03AB01	Antiepileptics	6.11	C0015046	DB00754
+ethyl loflazepate	24524	N05BA18	Psycholeptics	NA	C0059772	DB01545
+ethylestrenol	4162	A14AB02	Anabolic agents for systemic use	NA	C0015099	NA
+ethylmorphine	4166	S01XA06	Ophthalmologicals	NA	C0015109	DB01466
+ethynodiol	24591	G03DC06	Sex hormones and modulators of the genital system	0.78	C0059849	DB00823
+etodolac	24605	M01AB08	Anti-inflammatory and antirheumatic products	1.03	C0059865	DB00749
+etomidate	4177	N01AX07	Anesthetics	18.41	C0015131	DB00292
+etonogestrel	14584	G03AC08	Sex hormones and modulators of the genital system	2.8	C0047683	DB00294
+etoposide	4179	L01CB01	Antineoplastic agents	69.09	C0015133	DB00773
+etoricoxib	307296	M01AH05	Anti-inflammatory and antirheumatic products	NA	C0972314	DB01628
+etravirine	475969	J05AG04	Antivirals for systemic use	25.83	C1456409	DB06414
+etretinate	4182	D05BB01	Antipsoriatics	NA	C0015137	NA
+everolimus	141704	L01XE10	Antineoplastic agents	254.53	C0541315	DB01590
+exemestane	258494	L02BG06	Endocrine therapy	9.51	C0851344	DB00990
+exenatide	60548	A10BX04	Drugs used in diabetes	9.53	C0167117	DB01276
+ezetimibe	341248	C10AX09	Lipid modifying agents	3.43	C1142985	DB00973
+famciclovir	68099	J05AB09	Antivirals for systemic use	14.18	C0209227	DB00426
+famotidine	4278	A02BA03	Drugs for acid related disorders	0.93	C0015620	DB00927
+febuxostat	73689	M04AA03	Antigout preparations	5.82	C0249529	DB04854
+felbamate	24812	N03AX10	Antiepileptics	18.62	C0060135	DB00949
+felodipine	4316	C08CA02	Calcium channel blockers	1.27	C0015772	DB01023
+fenfluramine	4328	A08AA02	Antiobesity preparations, excluding diet products	NA	C0015827	NA
+fenofibrate	8703	C10AB05	Lipid modifying agents	2.85	C0033228	DB01039
+fenoldopam	24853	C01CA19	Cardiac therapy	NA	C0060180	DB00800
+fenoprofen	4331	M01AE04	Anti-inflammatory and antirheumatic products	2.49	C0015837	DB00573
+fenoterol	4333	R03CC04	Drugs for obstructive airway diseases	NA	C0015840	DB01288
+fentanyl	4337	N02AB03	Analgesics	13.39	C0015846	DB00813
+fesoterodine	797195	G04BD11	Urologicals	4.9	C2343853	DB06702
+fexofenadine	87636	R06AX26	Antihistamines for systemic use	1.76	C0296800	DB00950
+fidaxomicin	1111103	A07AA12	Antidiarrheals, intestinal anti-inflammatory/anti-infective agents	285.06	C0065023	DB08874
+filgrastim	68442	L03AA02	Immunostimulants	205.12	C0210630	DB00099
+finasteride	25025	D11AX10	Other dermatological preparations	1.12	C0060389	DB01216
+fingolimod	1012892	L04AA27	Immunosuppressants	156.24	C1699926	DB08868
+flavoxate	4440	G04BD02	Urologicals	3.84	C0016225	DB01148
+flecainide	4441	C01BC04	Cardiac therapy	1.25	C0016229	DB01195
+fleroxacin	42322	J01MA08	Antibacterials for systemic use	NA	C0085161	DB04576
+fluconazole	4450	D01AC15	Antifungals for dermatological use	2.51	C0016277	DB00196
+flucytosine	4451	J02AX01	Antimycotics for systemic use	236.55	C0016278	DB01099
+fludarabine	24698	L01BB05	Antineoplastic agents	160.58	C0059985	DB01073
+fludrocortisone	4452	H02AA02	Corticosteroids for systemic use	0.71	C0016280	DB00687
+flufenamic acid	4453	M01AG03	Anti-inflammatory and antirheumatic products	NA	C0016282	NA
+flumazenil	4457	V03AB25	All other therapeutic products	15.77	C0016293	DB01205
+flunarizine	4459	N07CA03	Other nervous system drugs	NA	C0016295	DB04841
+flunisolide	25120	R01AD04	Nasal preparations	1.11	C0060501	DB00180
+flunitrazepam	4460	N05CD03	Psycholeptics	NA	C0016296	DB01544
+fluocinolone	25126	D07AC04	Corticosteroids, dermatological preparations	3.09	C0060507	NA
+fluocinonide	4462	C05AA11	Vasoprotectives	2.44	C0016299	DB01047
+fluorescein	25138	S01JA01	Ophthalmologicals	1.71	C0060520	DB00693
+fluorometholone	4491	D10AA01	Anti-acne preparations	1.53	C0016351	DB00324
+fluorouracil	4492	L01BC02	Antineoplastic agents	11.73	C0016360	DB00544
+fluoxetine	4493	N06AB03	Psychoanaleptics	0.66	C0016365	DB00472
+fluoxymesterone	4494	G03BA01	Sex hormones and modulators of the genital system	4.68	C0016366	DB01185
+fluphenazine	4496	N05AB02	Psycholeptics	0.92	C0016368	DB00623
+flurandrenolide	4500	D07AC07	Corticosteroids, dermatological preparations	14.77	C0016374	DB00846
+flurazepam	4501	N05CD01	Psycholeptics	0.21	C0016375	DB00690
+flurbiprofen	4502	M01AE09	Anti-inflammatory and antirheumatic products	26.91	C0016377	DB00712
+fluspirilene	4507	N05AG01	Psycholeptics	NA	C0016383	DB04842
+flutamide	4508	L02BB01	Endocrine therapy	3.75	C0016384	DB00499
+fluticasone	41126	R01AD12	Nasal preparations	3.32	C0082607	DB00588
+fluvastatin	41127	C10AA04	Lipid modifying agents	3.2	C0082608	DB01095
+fluvoxamine	42355	N06AB08	Psychoanaleptics	2.64	C0085228	DB00176
+follicle stimulating hormone	227518	G03GA05	Sex hormones and modulators of the genital system	188.7	C0733758	NA
+follitropin alfa	386938	G03GA05	Sex hormones and modulators of the genital system	419.37	C1268876	DB09024
+follitropin beta	25357	G03GA06	Sex hormones and modulators of the genital system	364.99	C0060787	DB00066
+follitropin beta	25357	G03GA06	Sex hormones and modulators of the genital system	364.99	C0060787	DB00094
+fomepizole	15226	V03AB34	All other therapeutic products	NA	C0048504	DB01213
+fondaparinux	321208	B01AX05	Antithrombotic agents	77.83	C1098510	NA
+formic acid	4537	NA	NA	1.15	C0016576	NA
+formoterol	25255	R03AC13	Drugs for obstructive airway diseases	7.06	C0060657	DB00983
+fosamprenavir	358262	J05AE07	Antivirals for systemic use	28.24	C1176315	DB01319
+foscarnet	33562	J05AD01	Antivirals for systemic use	84.53	C0070895	DB00529
+fosfomycin	4550	J01XX01	Antibacterials for systemic use	37.9	C0016610	DB00828
+fosinopril	50166	C09AA09	Agents acting on the renin-angiotensin system	0.55	C0118168	DB00492
+fosphenytoin	72236	N03AB05	Antiepileptics	19.89	C0244656	DB01320
+framycetin	4556	R01AX08	Nasal preparations	NA	C0016673	DB00452
+frovatriptan	228783	N02CC07	Analgesics	23.68	C0754647	DB00998
+fructose	4570	V06DC02	General nutrients	0.65	C0016745	NA
+fulvestrant	282357	L02BA03	Endocrine therapy	82.71	C0935916	DB00947
+furazolidone	4601	G01AX06	Gynecological antiinfectives and antiseptics	4.24	C0016855	DB00614
+furosemide	4603	C03CA01	Diuretics	0.11	C0016860	DB00695
+gabapentin	25480	N03AX12	Antiepileptics	1.58	C0060926	DB00996
+gadobutrol	84990	V08CA09	Contrast media	NA	C0291216	DB06703
+gadodiamide	41144	V08CA03	Contrast media	119.39	C0082646	DB00225
+gadoteridol	25483	V08CA04	Contrast media	NA	C0060930	DB00597
+gadoversetamide	228833	V08CA06	Contrast media	1	C0754820	DB00538
+galantamine	4637	N06DA04	Psychoanaleptics	4.42	C0016967	DB00674
+galsulfase	578033	A16AB08	Other alimentary tract and metabolism products	2388.35	C1615657	DB01279
+ganciclovir	4678	J05AB06	Antivirals for systemic use	19.54	C0017066	DB01004
+ganirelix	35825	H01CC01	Pituitary and hypothalamic hormones and analogues	100.88	C0073629	DB06785
+gatifloxacin	228476	S01AE06	Ophthalmologicals	6.42	C0753645	DB01044
+gefitinib	328134	L01XE02	Antineoplastic agents	57.12	C1122962	DB00317
+gemcitabine	12574	L01BC05	Antineoplastic agents	116.67	C0045093	DB00441
+gemfibrozil	4719	C10AB04	Lipid modifying agents	0.57	C0017245	DB01241
+gemifloxacin	138099	J01MA15	Antibacterials for systemic use	24.65	C0533545	DB01155
+gentamicin sulfate (usp)	142438	J01GB03	Antibacterials for systemic use	NA	C0546866	NA
+glatiramer	214582	L03AX13	Immunostimulants	115.03	C0717787	NA
+gliclazide	4816	A10BB09	Drugs used in diabetes	NA	C0017631	DB01120
+glimepiride	25789	A10BB12	Drugs used in diabetes	0.49	C0061323	DB00222
+glipizide	4821	A10BB07	Drugs used in diabetes	0.42	C0017642	DB01067
+gliquidone	25793	A10BB08	Drugs used in diabetes	NA	C0061328	DB01251
+glucagon	4832	H04AA01	Pancreatic hormones	78.55	C0017687	DB00040
+glucosamine	4845	M01AX05	Anti-inflammatory and antirheumatic products	1.84	C0017718	DB01296
+glutathione	4890	V03AB32	All other therapeutic products	6.29	C0017817	DB00143
+glutethimide	4903	N05CE01	Psycholeptics	NA	C0017845	DB01437
+glyburide	4815	A10BB01	Drugs used in diabetes	0.6	C0017628	DB01016
+glycine	4919	B05CX03	Blood substitutes and perfusion solutions	25.98	C0017890	DB00145
+glycopyrrolate	4955	A03AB02	Drugs for functional gastrointestinal disorders	2.53	C0017970	NA
+golimumab	819300	L04AB06	Immunosuppressants	81.48	C2353893	DB06674
+gonadorelin	6384	H01CA01	Pituitary and hypothalamic hormones and analogues	NA	C0023610	DB00644
+goserelin	50610	L02AE03	Endocrine therapy	37.2	C0120107	DB00014
+gramicidin	5011	R02AB30	Throat preparations	2.01	C0018165	DB00027
+granisetron	26237	A04AA02	Antiemetics and antinauseants	49.61	C0061863	DB00889
+grepafloxacin	83719	J01MA11	Antibacterials for systemic use	NA	C0287721	NA
+griseofulvin	5021	D01BA01	Antifungals for dermatological use	4.01	C0018242	DB00400
+guaifenesin	5032	R05CA03	Cough and cold preparations	1.02	C0018305	DB00874
+guanethidine	5036	S01EX01	Ophthalmologicals	14.97	C0018318	DB01170
+guanfacine	40114	C02AC02	Antihypertensives	3.91	C0079466	DB01018
+halazepam	26412	N05BA13	Psycholeptics	NA	C0062092	DB00801
+halcinonide	5084	D07AD02	Corticosteroids, dermatological preparations	11.26	C0018513	DB06786
+halobetasol	41208	D07AC21	Corticosteroids, dermatological preparations	3.59	C0082787	DB00596
+halofantrine	50749	P01BX01	Antiprotozoals	NA	C0120726	DB01218
+haloperidol	5093	N05AD01	Psycholeptics	0.9	C0018546	DB00502
+haloprogin	26422	D01AE11	Antifungals for dermatological use	NA	C0062106	DB00793
+halothane	5095	N01AB01	Anesthetics	1.1	C0018549	DB01159
+heparin	5224	B01AB01	Antithrombotic agents	7.79	C0019134	DB01109
+heparin, porcine	235473	B01AB01	Antithrombotic agents	NA	C0770546	NA
+hetacillin	26797	J01CA18	Antibacterials for systemic use	NA	C0062587	DB00739
+hexachlorophene	5293	D08AE01	Antiseptics and disinfectants	2.27	C0019435	DB00756
+hexobarbital	5302	N05CA16	Psycholeptics	NA	C0019469	DB01355
+homatropine	27084	S01FA05	Ophthalmologicals	2.97	C0062922	NA
+hyaluronate	62372	D03AX05	Preparations for treatment of wounds and ulcers	25.93	C0178695	DB08818
+hyaluronidase	5464	B06AA03	Other hematological agents	72	C0020197	DB00070
+hydralazine	5470	C02DB02	Antihypertensives	0.81	C0020223	DB01275
+hydrochlorothiazide	5487	C03AA03	Diuretics	0.8	C0020261	DB00999
+hydrocodone	5489	R05DA03	Cough and cold preparations	1.43	C0020264	DB00956
+hydrocortisone	5492	H02AB09	Corticosteroids for systemic use	3.08	C0020268	DB00741
+hydroflumethiazide	5495	C03AA02	Diuretics	NA	C0020273	DB00774
+hydromorphone	3423	N02AA03	Analgesics	3.46	C0012306	DB00327
+hydroquinone	5509	D11AX11	Other dermatological preparations	2.71	C0020306	DB09526
+hydroxocobalamin	5514	B03BA03	Antianemic preparations	14.68	C0020316	DB00200
+hydroxychloroquine	5521	P01BA02	Antiprotozoals	0.67	C0020336	DB01611
+hydroxypropylcellulose	27291	S01KA02	Ophthalmologicals	NA	C0063188	DB00840
+hydroxyurea	5552	L01XX05	Antineoplastic agents	1.07	C0020402	DB01005
+hydroxyzine	5553	N05BB01	Psycholeptics	0.94	C0020404	DB00557
+hylan g-f 20	284637	M01AX	Anti-inflammatory and antirheumatic products	NA	C0939234	NA
+hyoscyamine	153970	A03BA03	Drugs for functional gastrointestinal disorders	2.26	C0596004	DB00424
+ibandronate	115264	M05BA06	Drugs for treatment of bone diseases	3.52	C0379199	DB00710
+ibuprofen	5640	M01AE01	Anti-inflammatory and antirheumatic products	0.62	C0020740	DB01050
+ibutilide	41289	C01BD05	Cardiac therapy	NA	C0082966	DB00308
+icatibant	1148138	B06AC02	Other hematological agents	15438.96	C0246269	DB06196
+idarubicin	5650	L01DB06	Antineoplastic agents	206.34	C0020789	DB01177
+idoxuridine	5653	D06BB01	Antibiotics and chemotherapeutics for dermatological use	8.76	C0020811	DB00249
+idursulfase	644101	A16AB09	Other alimentary tract and metabolism products	1091.89	C1739462	DB01271
+ifosfamide	5657	L01AA06	Antineoplastic agents	74.12	C0020823	DB01181
+iloperidone	73178	N05AX14	Psycholeptics	19.47	C0247194	DB04946
+iloprost	40138	B01AC11	Antithrombotic agents	422.73	C0079594	DB01088
+imatinib	282388	L01XE01	Antineoplastic agents	172.21	C0935989	DB00619
+imiglucerase	84959	A16AB02	Other alimentary tract and metabolism products	861.94	C0291140	DB00053
+imiglucerase	84959	A16AB02	Other alimentary tract and metabolism products	861.94	C0291140	DB06720
+imipramine	5691	N06AA02	Psychoanaleptics	1.39	C0020934	DB00458
+imiquimod	59943	D06BB10	Antibiotics and chemotherapeutics for dermatological use	15.44	C0165032	DB00724
+immunoglobulin g	5666	J06BA02	Immune sera and immunoglobulins	NA	C0020852	NA
+indacaterol	1114326	R03AC18	Drugs for obstructive airway diseases	5.69	C1722260	DB05039
+indapamide	5764	C03BA11	Diuretics	0.17	C0021186	DB00808
+indinavir	114289	J05AE02	Antivirals for systemic use	13.78	C0376637	DB00224
+indomethacin	5781	C01EB03	Cardiac therapy	1.22	C0021246	DB00328
+infliximab	191831	L04AB02	Immunosuppressants	167.68	C0666743	DB00065
+ingenol mebutate	1242806	D06BX02	Antibiotics and chemotherapeutics for dermatological use	170.03	C2825682	DB05013
+insulin detemir	139825	A10AE05	Drugs used in diabetes	9.07	C0537270	DB01307
+insulin glargine	274783	A10AE04	Drugs used in diabetes	7.33	C0907402	DB00047
+insulin lispro	86009	A10AB04	Drugs used in diabetes	9.63	C0293359	DB00046
+insulin, aspart protamine, human	352385	A10AD01	Drugs used in diabetes	NA	C1170011	NA
+insulin, aspart, human	51428	A10AB05	Drugs used in diabetes	NA	C0123677	DB01306
+insulin, glulisine, human	400008	A10AD01	Drugs used in diabetes	NA	C1313386	DB01309
+insulin, isophane	1605101	A10	Drugs used in diabetes	NA	NA	NA
+insulin, protamine lispro, human	314684	A10AD01	Drugs used in diabetes	NA	C0982221	NA
+interferon alfa-2b	5880	L03AB05	Immunostimulants	108.02	C0021735	DB00105
+interferon alfa-n1	202912	L03AB06	Immunostimulants	NA	C0699817	DB00011
+interferon alfacon-1	59744	L03AB09	Immunostimulants	88.52	C0164613	DB00069
+interferon beta-1a	75917	L03AB07	Immunostimulants	103.92	C0254119	DB00060
+interferon beta-1b	72257	L03AB08	Immunostimulants	100.18	C0244713	DB00068
+interferon gamma-1b	5882	L03AB03	Immunostimulants	293.73	C0021741	DB00033
+iodixanol	27729	V08AB09	Contrast media	52.02	C0063757	DB01249
+iodoquinol	3435	G01AC01	Gynecological antiinfectives and antiseptics	3.25	C0012341	DB09115
+iohexol	5956	V08AB02	Contrast media	1.31	C0022005	DB01362
+ipratropium	7213	R03BB01	Drugs for obstructive airway diseases	4.28	C0027235	NA
+irbesartan	83818	C09CA04	Agents acting on the renin-angiotensin system	2.18	C0288171	DB01029
+irinotecan	51499	L01XX19	Antineoplastic agents	113.94	C0123931	DB00762
+isocarboxazid	6011	N06AF01	Psychoanaleptics	9.49	C0022154	DB01247
+isoflurane	6026	N01AB06	Anesthetics	NA	C0022180	DB00753
+isometheptene	27946	A03AX10	Drugs for functional gastrointestinal disorders	3.81	C0064007	DB06706
+isoniazid	6038	J04AC01	Antimycobacterials	0.22	C0022209	DB00951
+isopropamide	89784	A03AB09	Drugs for functional gastrointestinal disorders	0.46	C0301373	DB01625
+isopropyl alcohol	797541	D08AX05	Antiseptics and disinfectants	0.39	C0022237	DB02325
+isosorbide	6057	C01DA08	Cardiac therapy	0.37	C0022251	NA
+isosorbide dinitrate	6058	C05AE02	Vasoprotectives	1.16	C0022252	DB00883
+isothipendyl	28012	D04AA22	Antipruritics, including antihistamines, anesthetics, etc.	NA	C0064088	DB08802
+isotretinoin	6064	D10AD04	Anti-acne preparations	16.45	C0022265	DB00982
+isradipine	33910	C08CA03	Calcium channel blockers	2.9	C0071304	DB00270
+itraconazole	28031	J02AC02	Antimycotics for systemic use	16.84	C0064113	DB01167
+ivacaftor	1243041	R07AX02	Other respiratory system products	828.66	C3264621	DB08820
+ivermectin	6069	P02CF01	Anthelmintics	27.68	C0022322	DB00602
+ixabepilone	337523	L01DC04	Antineoplastic agents	207.75	C1135132	DB04845
+josamycin	6084	J01FA07	Antibacterials for systemic use	NA	C0022419	DB01321
+kanamycin	6099	S01AA24	Ophthalmologicals	18.48	C0022487	DB01172
+kaolin	6102	A07BC02	Antidiarrheals, intestinal anti-inflammatory/anti-infective agents	0.9	C0022499	DB01575
+ketamine	6130	N01AX03	Anesthetics	60.43	C0022614	DB01221
+ketazolam	28181	N05BA10	Psycholeptics	NA	C0064304	DB01587
+ketoconazole	6135	J02AB02	Antimycotics for systemic use	1.35	C0022625	DB01026
+ketoprofen	6142	M02AA10	Topical products for joint and muscular pain	4.74	C0022635	DB01009
+ketorolac	35827	M01AB15	Anti-inflammatory and antirheumatic products	2.41	C0073631	DB00465
+ketotifen	6146	S01GX08	Ophthalmologicals	2.38	C0022642	DB00920
+labetalol	6185	C07AG01	Beta blocking agents	0.73	C0022860	DB00598
+lacosamide	623400	N03AX18	Antiepileptics	18.08	C0893761	DB06218
+lactulose	6218	A06AD11	Drugs for constipation	1.12	C0022957	DB00581
+lamivudine	68244	J05AF05	Antivirals for systemic use	25.12	C0209738	DB00709
+lamotrigine	28439	N03AX09	Antiepileptics	3.84	C0064636	DB00555
+lanreotide	68092	H01CB03	Pituitary and hypothalamic hormones and analogues	138.55	C0209211	DB06791
+lansoprazole	17128	A02BC03	Drugs for acid related disorders	4.6	C0050940	DB00448
+lanthanum carbonate	234416	V03AE03	All other therapeutic products	22.71	C0768119	DB06792
+lapatinib	480167	L01XE07	Antineoplastic agents	113.37	C1506770	DB01259
+laronidase	392509	A16AB05	Other alimentary tract and metabolism products	929.32	C1302054	DB00090
+latanoprost	43611	S01EE01	Ophthalmologicals	1.6	C0090306	DB00654
+ledipasvir	1591922	J05AX65	Antivirals for systemic use	1119.4	C3851350	DB09027
+leflunomide	27169	L04AA13	Immunosuppressants	2.41	C0063041	DB01097
+lenalidomide	342369	L04AX04	Immunosuppressants	309.17	C1144149	DB00480
+lepirudin	237057	B01AE02	Antithrombotic agents	458.84	C0772394	DB00001
+lercanidipine	135056	C08CA13	Calcium channel blockers	NA	C0526399	DB00528
+letrozole	72965	L02BG04	Endocrine therapy	8.24	C0246421	DB01006
+leucovorin	6313	V03AF03	All other therapeutic products	3.35	C0023413	DB00650
+leuprolide	42375	L02AE02	Endocrine therapy	41.88	C0085272	DB00007
+levalbuterol	237159	R03AC02	Drugs for obstructive airway diseases	8.03	C0772501	DB01001
+levamisole	6371	P02CE01	Anthelmintics	9.47	C0023556	NA
+levetiracetam	114477	N03AX14	Antiepileptics	4.63	C0377265	DB01202
+levobunolol	1813	S01ED03	Ophthalmologicals	0.38	C0006388	DB01210
+levobupivacaine	259453	N01BB10	Anesthetics	NA	C0873118	DB01002
+levocabastine	28627	R01AC02	Nasal preparations	2.12	C0064870	DB01106
+levocarnitine	42955	A16AA01	Other alimentary tract and metabolism products	2.65	C0087163	DB00583
+levocetirizine	356887	R06AE09	Antihistamines for systemic use	1.59	C1174893	DB06282
+levodopa	6375	N04BA01	Anti-parkinson drugs	2.05	C0023570	DB01235
+levofloxacin	82122	J01MA12	Antibacterials for systemic use	9.77	C0282386	DB01137
+levomilnacipran	1433212	N06AX17	Psychoanaleptics	7.51	C3541367	DB08918
+levonorgestrel	6373	G03AD01	Sex hormones and modulators of the genital system	1.96	C0023566	DB00367
+levosimendan	73107	C01CX08	Cardiac therapy	NA	C0246904	DB00922
+lidocaine	6387	S01HA07	Ophthalmologicals	6.1	C0023660	DB00281
+linaclotide	1307404	A06AX04	Drugs for constipation	8.02	C2000261	DB08890
+linagliptin	1100699	A10BH05	Drugs used in diabetes	7.93	C2746078	DB08882
+lincomycin	6398	J01FF02	Antibacterials for systemic use	11.49	C0023726	DB01627
+lindane	1388	P03AB02	Ectoparasiticides, including scabicides, insecticides and repellents	45.06	C0005038	DB00431
+linezolid	190376	J01XX08	Antibacterials for systemic use	166.07	C0663241	DB00601
+liraglutide	475968	A10BX07	Drugs used in diabetes	13.57	C1456408	DB06655
+lisdexamfetamine	700810	N06BA12	Psychoanaleptics	5.37	C1873633	DB01255
+lisinopril	29046	C09AA03	Agents acting on the renin-angiotensin system	0.22	C0065374	DB00722
+lisuride	6446	N02CA07	Analgesics	NA	C0023863	DB00589
+lithium	6448	N05AN01	Psycholeptics	1.42	C0023870	DB01356
+lithium carbonate	42351	N05AN01	Psycholeptics	0.59	C0085217	NA
+lithium citrate	52105	N05AN01	Psycholeptics	1.39	C0125997	NA
+lodoxamide	52151	S01GX05	Ophthalmologicals	4.19	C0126120	DB06794
+lofexidine	28863	N07BC04	Other nervous system drugs	NA	C0065152	DB04948
+lomefloxacin	28872	S01AE04	Ophthalmologicals	NA	C0065162	DB00978
+lomustine	6466	L01AD02	Antineoplastic agents	41.03	C0023972	DB01206
+loperamide	6468	A07DA03	Antidiarrheals, intestinal anti-inflammatory/anti-infective agents	1.05	C0023992	DB00836
+lopinavir	195088	J05AR10	Antivirals for systemic use	23.73	C0674432	DB01601
+loracarbef	28981	J01DC08	Antibacterials for systemic use	9.25	C0065295	NA
+loratadine	28889	R06AX13	Antihistamines for systemic use	0.31	C0065180	DB00455
+lorazepam	6470	N05BA06	Psycholeptics	0.57	C0024002	DB00186
+lorcaserin	1300701	A08AA11	Antiobesity preparations, excluding diet products	6.55	C2350948	DB04871
+lornoxicam	20890	M01AC05	Anti-inflammatory and antirheumatic products	NA	C0055477	DB06725
+losartan	52175	C09CA01	Agents acting on the renin-angiotensin system	1	C0126174	DB00678
+loteprednol	237027	S01BA14	Ophthalmologicals	NA	C0772364	DB00873
+loteprednol etabonate	52177	S01BA14	Ophthalmologicals	6.31	C0126177	NA
+lovastatin	6472	C10AA02	Lipid modifying agents	0.73	C0024027	DB00227
+loxapine	6475	N05AH01	Psycholeptics	1.64	C0024056	DB00408
+lubiprostone	623033	A06AX03	Drugs for constipation	7.01	C1684405	DB01046
+luliconazole	1482680	D01AC18	Antifungals for dermatological use	16.44	C1956280	DB08933
+lumefantrine	847728	P01BF01	Antiprotozoals	19.06	C0531104	DB06708
+lurasidone	1040028	N05AE05	Psycholeptics	22.77	C2003424	DB08815
+luteinizing hormone	6383	G03GA05	Sex hormones and modulators of the genital system	188.7	C0023607	NA
+lutropin alfa	388084	G03GA07	Sex hormones and modulators of the genital system	43.62	C1271607	DB00044
+lymecycline	6513	J01AA04	Antibacterials for systemic use	NA	C0024200	DB00256
+malathion	6606	P03AX03	Ectoparasiticides, including scabicides, insecticides and repellents	51.04	C0024547	DB00772
+mannitol	6628	R05CB16	Cough and cold preparations	5.32	C0024730	DB00742
+maprotiline	6646	N06AA21	Psychoanaleptics	1.32	C0024778	DB00934
+maraviroc	620216	J05AX09	Antivirals for systemic use	35.53	C1667052	DB04835
+masoprocol	227239	L01XX10	Antineoplastic agents	NA	C0733397	DB00179
+mazindol	6664	A08AA05	Antiobesity preparations, excluding diet products	NA	C0024977	DB00579
+mebendazole	6672	P02CA01	Anthelmintics	3.31	C0025023	DB00643
+mecamylamine	6673	C02BB01	Antihypertensives	13.23	C0025029	DB00657
+mecasermin	274403	H01AC03	Pituitary and hypothalamic hormones and analogues	168.1	C0904505	DB01277
+meclizine	6676	R06AE05	Antihistamines for systemic use	0.79	C0025039	DB00737
+meclofenamate	588003	M01AG04	Anti-inflammatory and antirheumatic products	4.81	C1289957	DB00939
+meclofenamic acid	6678	M02AA18	Topical products for joint and muscular pain	NA	C0025042	DB00939
+medroxyprogesterone	6691	G03DA02	Sex hormones and modulators of the genital system	1.46	C0025147	NA
+medrysone	29439	S01BA08	Ophthalmologicals	1.59	C0065865	DB00253
+mefenamate	257844	M01AG01	Anti-inflammatory and antirheumatic products	NA	C0806919	NA
+mefloquine	6694	P01BC02	Antiprotozoals	1.34	C0025153	DB00358
+megestrol	6703	G03AC05	Sex hormones and modulators of the genital system	3.72	C0025175	NA
+melatonin	6711	N05CH01	Psycholeptics	2.2	C0025219	DB01065
+meloxicam	41493	M01AC06	Anti-inflammatory and antirheumatic products	0.36	C0083381	DB00814
+melphalan	6718	L01AA03	Antineoplastic agents	23.63	C0025241	DB01042
+memantine	6719	N06DX01	Psychoanaleptics	6.21	C0025242	DB01043
+menthol	6750	R05	Cough and cold preparations	38.9	C0025368	DB00825
+mepenzolate	107770	A03AB12	Drugs for functional gastrointestinal disorders	4.01	C0360172	DB04843
+meperidine	6754	N02AB02	Analgesics	2.44	C0025376	DB00454
+mephentermine	6756	C01CA11	Cardiac therapy	NA	C0025380	DB01365
+mephenytoin	6757	N03AB04	Antiepileptics	NA	C0025381	NA
+mepivacaine	6759	N01BB03	Anesthetics	3.74	C0025384	DB00961
+meprobamate	6760	N05BC01	Psycholeptics	3.64	C0025386	DB00371
+mequitazine	29528	R06AD07	Antihistamines for systemic use	NA	C0065972	DB01071
+mercaptopurine	103	L01BB02	Antineoplastic agents	2.86	C0000618	DB01033
+meropenem	29561	J01DH02	Antibacterials for systemic use	103.81	C0066005	DB00760
+mesalamine	52582	A07EC02	Antidiarrheals, intestinal anti-inflammatory/anti-infective agents	13.38	C0127615	DB00244
+mesna	44	V03AF01	All other therapeutic products	226.71	C0000294	DB09110
+mesoridazine	6779	N05AC03	Psycholeptics	0.5	C0025497	DB00933
+mestranol	6782	NA	NA	0.83	C0025506	DB01357
+metaproterenol	7688	R03AB03	Drugs for obstructive airway diseases	1.67	C0029193	DB00816
+metaraminol	6805	C01CA09	Cardiac therapy	NA	C0025575	DB00610
+metaxalone	59078	M03XXXX	Muscle relaxants	8.85	C0163055	DB00660
+metformin	6809	A10BA02	Drugs used in diabetes	1.15	C0025598	DB00331
+methadone	6813	N07BC02	Other nervous system drugs	0.64	C0025605	DB00333
+methamphetamine	6816	N06BA03	Psychoanaleptics	17.95	C0025611	DB01577
+methantheline	6821	A03AB07	Drugs for functional gastrointestinal disorders	NA	C0025624	DB00940
+methapyrilene	6822	R06AC05	Antihistamines for systemic use	NA	C0025625	NA
+methaqualone	6823	N05CM01	Psycholeptics	NA	C0025627	NA
+metharbital	6825	N03AA30	Antiepileptics	NA	C0025629	NA
+methazolamide	6826	S01EC05	Ophthalmologicals	2.18	C0025631	DB00703
+methdilazine	29648	R06AD04	Antihistamines for systemic use	NA	C0066101	DB00902
+methenamine	6832	J01XX05	Antibacterials for systemic use	2.27	C0025638	DB06799
+methimazole	6835	H03BB02	Thyroid therapy	0.56	C0025644	DB00763
+methocarbamol	6845	M03BA03	Muscle relaxants	0.64	C0025659	DB00423
+methohexital	6847	N01AF01	Anesthetics	NA	C0025668	DB00474
+methotrexate	6851	L04AX03	Immunosuppressants	0.88	C0025677	DB00563
+methoxamine	6853	C01CA10	Cardiac therapy	NA	C0025681	DB00723
+methoxsalen	6854	D05AD02	Antipsoriatics	66.76	C0025684	DB00553
+methoxyflurane	6857	N02BG09	Analgesics	NA	C0025688	DB01028
+methscopolamine	89785	A03BB03	Drugs for functional gastrointestinal disorders	3.03	C0301374	NA
+methsuximide	47858	N03AD03	Antiepileptics	3.81	C0109002	DB05246
+methyclothiazide	6860	C03AA08	Diuretics	0.65	C0025696	DB00232
+methyldopa	6876	C02AB01	Antihypertensives	0.4	C0025741	DB00968
+methylergonovine	6883	G02AB01	Other gynecologicals	10.8	C0025760	DB00353
+methylnaltrexone	29899	A06AH01	Drugs for constipation	32.09	C0066411	DB06800
+methylphenidate	6901	N06BA04	Psychoanaleptics	4.09	C0025810	DB00422
+methylprednisolone	6902	H02AB04	Corticosteroids for systemic use	1.99	C0025815	DB00959
+methyltestosterone	6904	G03EK01	Sex hormones and modulators of the genital system	1.46	C0025826	DB06710
+methyprylon	6910	N05CE02	Psycholeptics	NA	C0025840	DB01107
+methysergide	6911	N02CA04	Analgesics	7.36	C0025842	DB00247
+metipranolol	10824	S01ED04	Ophthalmologicals	0.69	C0041030	DB01214
+metoclopramide	6915	A03FA01	Drugs for functional gastrointestinal disorders	0.42	C0025853	DB01233
+metolazone	6916	C03BA08	Diuretics	0.77	C0025854	DB00524
+metoprolol	6918	C07AB02	Beta blocking agents	0.64	C0025859	DB00264
+metrizamide	6920	V08AB01	Contrast media	NA	C0025869	DB01578
+metronidazole	6922	P01AB01	Antiprotozoals	2.77	C0025872	DB00916
+metyrapone	6923	V04CD01	Diagnostic agents	116.51	C0025876	DB01011
+mexiletine	6926	C01BB02	Cardiac therapy	1.25	C0025887	DB00379
+mezlocillin	6927	J01CA10	Antibacterials for systemic use	NA	C0025893	DB00948
+mianserin	6929	N06AX03	Psychoanaleptics	NA	C0025912	DB06148
+mibefradil	83213	C08CX01	Calcium channel blockers	NA	C0286185	NA
+micafungin	325887	J02AX05	Antimycotics for systemic use	173.76	C1120386	DB01141
+miconazole	6932	A01AB09	Stomatological preparations	14.37	C0025942	DB01110
+midazolam	6960	N05CD08	Psycholeptics	3.94	C0026056	DB00683
+midodrine	6963	C01CA17	Cardiac therapy	3.41	C0026078	DB00211
+mifepristone	6964	G03XB01	Sex hormones and modulators of the genital system	447.17	C0026088	DB00834
+miglitol	30009	A10BF02	Drugs used in diabetes	2.52	C0066535	DB00491
+miglustat	402316	A16AX06	Other alimentary tract and metabolism products	566.49	C1321596	DB00419
+milnacipran	588250	N06AX17	Psychoanaleptics	4.32	C1533126	DB04896
+milrinone	52769	C01CE02	Cardiac therapy	229.79	C0128513	DB00235
+minaprine	30031	N06AX07	Psychoanaleptics	NA	C0066561	DB00805
+minocycline	6980	A01AB23	Stomatological preparations	5.41	C0026187	DB01017
+minoxidil	6984	C02DC01	Antihypertensives	0.74	C0026196	DB00350
+mirabegron	1300786	G04BD12	Urologicals	7.67	C2983812	DB08893
+mirtazapine	15996	N06AX11	Psychoanaleptics	0.58	C0049506	DB00370
+misoprostol	42331	A02BB01	Drugs for acid related disorders	3.63	C0085174	DB00929
+mitomycin	632	L01DC03	Antineoplastic agents	69.38	C0002475	DB00305
+mitotane	7004	L01XX23	Antineoplastic agents	29.32	C0026256	DB00648
+mitoxantrone	7005	L01DB07	Antineoplastic agents	79.57	C0026259	DB01204
+moclobemide	30121	N06AG02	Psychoanaleptics	NA	C0066673	DB01171
+modafinil	30125	N06BA07	Psychoanaleptics	19.22	C0066677	DB00745
+moexipril	30131	C09AA13	Agents acting on the renin-angiotensin system	0.93	C0066685	DB00691
+molindone	7019	N05AE02	Psycholeptics	5.99	C0026388	DB01618
+mometasone	108118	D07AC13	Corticosteroids, dermatological preparations	3.73	C0360564	DB00764
+monobenzone	17145	D11AX13	Other dermatological preparations	8.91	C0050962	DB00600
+montelukast	88249	R03DC03	Drugs for obstructive airway diseases	3	C0298130	DB00471
+morphine	7052	N02AA01	Analgesics	4.2	C0026549	DB00295
+moxifloxacin	139462	J01MA14	Antibacterials for systemic use	10.22	C0536495	DB00218
+mupirocin	42372	R01AX06	Nasal preparations	2.72	C0085259	DB00410
+mycophenolate mofetil	68149	L04AA06	Immunosuppressants	11.36	C0209368	DB00688
+mycophenolic acid	7145	L04AA06	Immunosuppressants	NA	C0026933	DB01024
+nabilone	31447	A04AD11	Antiemetics and antinauseants	45.34	C0068333	DB00486
+nabumetone	31448	M01AX01	Anti-inflammatory and antirheumatic products	1.13	C0068334	DB00461
+nadolol	7226	C07AA12	Beta blocking agents	0.84	C0027302	DB01203
+nadroparin	67031	B01AB06	Antithrombotic agents	NA	C0206232	DB08813
+nafarelin	28656	H01CA02	Pituitary and hypothalamic hormones and analogues	56.58	C0064906	DB00666
+naftifine	31476	D01AE22	Antifungals for dermatological use	9.74	C0068367	DB00735
+nalbuphine	7238	N02AF02	Analgesics	6.88	C0027348	DB00844
+naloxone	7242	V03AB15	All other therapeutic products	12.27	C0027358	DB01183
+naltrexone	7243	N07BB04	Other nervous system drugs	6.36	C0027360	DB00704
+naphazoline	7247	R01AA08	Nasal preparations	0.27	C0027373	DB06711
+naproxen	7258	M01AE02	Anti-inflammatory and antirheumatic products	1.43	C0027396	DB00788
+naratriptan	141366	N02CC02	Analgesics	11.9	C0540623	DB00952
+natalizumab	354770	L04AA23	Immunosuppressants	122.53	C1172734	DB00108
+natamycin	7268	S01AA10	Ophthalmologicals	13.86	C0027444	DB00826
+nateglinide	274332	A10BX03	Drugs used in diabetes	3.52	C0903898	DB00731
+nebivolol	31555	C07AB12	Beta blocking agents	2.13	C0068475	DB04861
+nedocromil	31563	R03BC03	Drugs for obstructive airway diseases	3.24	C0068483	DB00716
+nefazodone	31565	N06AX06	Psychoanaleptics	1.4	C0068485	DB01149
+nelarabine	274771	L01BB07	Antineoplastic agents	NA	C0907349	DB01280
+nelfinavir	134527	J05AE04	Antivirals for systemic use	22.31	C0525005	DB00220
+neomycin	7299	D06AX04	Antibiotics and chemotherapeutics for dermatological use	2.06	C0027603	DB00994
+neostigmine	7315	N07AA01	Other nervous system drugs	3.75	C0027679	DB01400
+nepafenac	298665	S01BC10	Ophthalmologicals	7.84	C0961209	DB06802
+nesiritide	19666	C01DX19	Cardiac therapy	NA	C0054015	DB04899
+netilmicin	7337	S01AA23	Ophthalmologicals	NA	C0027780	DB00955
+nevirapine	53654	J05AG01	Antivirals for systemic use	14.26	C0132326	DB00238
+nialamide	7394	N06AF02	Psychoanaleptics	NA	C0027999	NA
+nicardipine	7396	C08CA04	Calcium channel blockers	1.38	C0028005	DB00622
+nicergoline	7398	C04AE02	Peripheral vasodilators	NA	C0028008	DB00699
+niclosamide	7402	P02DA01	Anthelmintics	11.05	C0028017	DB06803
+nicotine	7407	N07BA01	Other nervous system drugs	5.14	C0028040	DB00184
+nifedipine	7417	C08CA05	Calcium channel blockers	1.29	C0028066	DB01115
+niflumic acid	7418	M02AA17	Topical products for joint and muscular pain	NA	C0028067	DB04552
+nilotinib	662281	L01XE08	Antineoplastic agents	258.97	C1721377	DB04868
+nilutamide	31805	L02BB02	Endocrine therapy	28.44	C0068771	DB00665
+nilvadipine	53692	C08CA10	Calcium channel blockers	NA	C0132512	DB06712
+nimesulide	53694	M01AX17	Anti-inflammatory and antirheumatic products	NA	C0132515	DB04743
+nimodipine	7426	C08CA06	Calcium channel blockers	42.69	C0028094	DB00393
+nisoldipine	7435	C08CA07	Calcium channel blockers	3.76	C0028116	DB00401
+nitazoxanide	31819	P01AX11	Antiprotozoals	34.31	C0068788	DB00507
+nitisinone	61805	A16AX04	Other alimentary tract and metabolism products	631.24	C0173083	DB00348
+nitrazepam	7440	N05CD02	Psycholeptics	NA	C0028126	DB01595
+nitrendipine	7441	C08CA08	Calcium channel blockers	NA	C0028127	DB01054
+nitric oxide	7442	R07AX01	Other respiratory system products	NA	C0028128	DB00435
+nitrofurantoin	7454	J01XE01	Antibacterials for systemic use	2.84	C0028156	DB00698
+nitroglycerin	4917	C01DA02	Cardiac therapy	1.32	C0017887	DB00727
+nitroprusside	7476	C02DD01	Antihypertensives	4.21	C0028193	DB00325
+nitroxoline	31901	J01XX07	Antibacterials for systemic use	NA	C0068881	DB01422
+nizatidine	42319	A02BA04	Drugs for acid related disorders	1.74	C0085154	DB00585
+nomifensine	7500	N06AX04	Psychoanaleptics	NA	C0028277	NA
+norelgestromin	326374	G03AA13	Sex hormones and modulators of the genital system	2.66	C1120952	DB06713
+norepinephrine	7512	C01CA03	Cardiac therapy	NA	C0028351	DB00368
+norethindrone	7514	G03AC01	Sex hormones and modulators of the genital system	1.38	C0028356	DB00717
+norfloxacin	7517	S01AE02	Ophthalmologicals	5.11	C0028365	DB01059
+norgestimate	31994	G03AA11	Sex hormones and modulators of the genital system	0.99	C0068992	DB00957
+norgestrel	7518	G03AA06	Sex hormones and modulators of the genital system	0.82	C0028368	DB09389
+nortriptyline	7531	N06AA10	Psychoanaleptics	0.38	C0028420	DB00540
+nystatin	7597	A07AA02	Antidiarrheals, intestinal anti-inflammatory/anti-infective agents	2.38	C0028741	DB00646
+octreotide	7617	H01CB02	Pituitary and hypothalamic hormones and analogues	113.53	C0028833	DB00104
+ofloxacin	7623	S02AA16	Otologicals	2.71	C0028902	DB01165
+olanzapine	61381	N05AH03	Psycholeptics	10.85	C0171023	DB00334
+olmesartan	321064	C09CA08	Agents acting on the renin-angiotensin system	2.94	C1098320	DB00275
+olopatadine	135391	S01GX09	Ophthalmologicals	4.63	C0527189	DB00768
+olsalazine	32385	A07EC03	Antidiarrheals, intestinal anti-inflammatory/anti-infective agents	12.37	C0069454	DB01250
+omalizumab	302379	R03DX05	Drugs for obstructive airway diseases	77.5	C0966225	DB00043
+omega-3 acid ethyl esters (usp)	484348	C10AX06	Lipid modifying agents	NA	C1532673	DB09539
+omeprazole	7646	A02BC01	Drugs for acid related disorders	0.92	C0028978	DB00338
+ondansetron	26225	A04AA01	Antiemetics and antinauseants	8.62	C0061851	DB00904
+opium	7676	A07DA02	Antidiarrheals, intestinal anti-inflammatory/anti-infective agents	22.77	C0029112	NA
+oprelvekin	139994	L03AC02	Immunostimulants	165.22	C0537670	DB00038
+orlistat	37925	A08AB01	Antiobesity preparations, excluding diet products	8.49	C0076275	DB01083
+orphenadrine	7715	M03BC01	Muscle relaxants	1.72	C0029309	DB01173
+oseltamivir	260101	J05AH02	Antivirals for systemic use	17.13	C0874161	DB00198
+ospemifene	1370971	G03XC05	Sex hormones and modulators of the genital system	5.19	C1313616	DB04938
+oxacillin	7773	J01CF04	Antibacterials for systemic use	122.93	C0029983	DB00713
+oxaliplatin	32592	L01XA03	Antineoplastic agents	277.24	C0069717	DB00526
+oxamniquine	7778	P02BA02	Anthelmintics	NA	C0029994	DB01096
+oxandrolone	7779	A14AA08	Anabolic agents for systemic use	18.09	C0029995	DB00621
+oxaprozin	32613	M01AE12	Anti-inflammatory and antirheumatic products	1.33	C0069739	DB00991
+oxazepam	7781	N05BA04	Psycholeptics	1.24	C0029997	DB00842
+oxcarbazepine	32624	N03AF02	Antiepileptics	4.07	C0069751	DB00776
+oxeladin	32626	R05DB09	Cough and cold preparations	NA	C0069753	NA
+oxiconazole	32638	G01AF17	Gynecological antiinfectives and antiseptics	7.65	C0069765	DB00239
+oxprenolol	7801	C07AA02	Beta blocking agents	NA	C0030040	DB01580
+oxybutynin	32675	G04BD04	Urologicals	1.54	C0069805	DB01062
+oxycodone	7804	N02AA05	Analgesics	3.99	C0030049	DB00497
+oxymetazoline	7812	S01GA04	Ophthalmologicals	0.45	C0030071	DB00935
+oxymorphone	7814	N02A	Analgesics	16.71	C0030073	DB01192
+oxyphenbutazone	7816	S01BC02	Ophthalmologicals	NA	C0030078	NA
+oxyphencyclimine	32698	A03AA01	Drugs for functional gastrointestinal disorders	7.86	C0069833	DB00383
+oxyphenonium	7818	A03AB03	Drugs for functional gastrointestinal disorders	NA	C0030082	DB00219
+oxyquinoline	110	A01AB07	Stomatological preparations	2.06	C0000665	NA
+oxytetracycline	7821	D06AA03	Antibiotics and chemotherapeutics for dermatological use	4.67	C0030092	DB00595
+oxytocin	7824	H01BB02	Pituitary and hypothalamic hormones and analogues	200.9	C0030095	DB00107
+paclitaxel	56946	L01CD01	Antineoplastic agents	91	C0144576	DB01229
+palifermin	196319	V03AF08	All other therapeutic products	1230.7	C0677829	DB00039
+paliperidone	679314	N05AX13	Psycholeptics	24.8	C0753678	DB01267
+palivizumab	194279	J06BB16	Immune sera and immunoglobulins	100.96	C0672596	DB00110
+palonosetron	70561	A04AA05	Antiemetics and antinauseants	123.65	C0220578	DB00377
+pancuronium	7883	M03AC01	Muscle relaxants	2.33	C0030310	DB01337
+panitumumab	263034	L01XC08	Antineoplastic agents	872.43	C0879427	DB01269
+pantoprazole	40790	A02BC02	Drugs for acid related disorders	1.88	C0081876	DB00213
+papaverine	7895	G04BE02	Urologicals	1.81	C0030350	DB01113
+paramethadione	32894	N03AC01	Antiepileptics	NA	C0070072	DB00617
+paramethasone	7910	H02AB05	Corticosteroids for systemic use	NA	C0030454	DB01384
+parecoxib	279950	M01AH04	Anti-inflammatory and antirheumatic products	NA	C0915142	DB08439
+paregoric	32926	N02AA01	Analgesics	6.11	C0070108	NA
+pargyline	7930	C02KC01	Antihypertensives	NA	C0030557	DB01626
+paricalcitol	73710	H05BX02	Calcium homeostasis	8.48	C0249582	DB00910
+paromomycin	7934	A07AA06	Antidiarrheals, intestinal anti-inflammatory/anti-infective agents	16.04	C0030576	DB01421
+paroxetine	32937	N06AB05	Psychoanaleptics	0.94	C0070122	DB00715
+pazopanib	714438	L01XE11	Antineoplastic agents	203.49	C1831796	DB06589
+pefloxacin	7960	J01MA03	Antibacterials for systemic use	NA	C0030771	DB00487
+pegaptanib	498509	S01LA03	Ophthalmologicals	41.61	C1531015	DB04895
+pegaspargase	34132	L01XX24	Antineoplastic agents	1026.34	C0071568	DB00059
+pegfilgrastim	338036	L03AA13	Immunostimulants	626.26	C1136535	DB00019
+peginterferon alfa-2a	120608	L03AB11	Immunostimulants	78.58	C0391001	DB00008
+peginterferon alfa-2b	253453	L03AB10	Immunostimulants	76.31	C0796545	DB00022
+pegvisomant	278739	H01AX01	Pituitary and hypothalamic hormones and analogues	176.18	C0913469	DB00082
+pemetrexed	68446	L01BA04	Antineoplastic agents	320.11	C0210657	DB00642
+pemoline	7966	N06BA05	Psychoanaleptics	0.85	C0030800	NA
+penbutolol	7973	C07AA23	Beta blocking agents	2.49	C0030812	DB01359
+penciclovir	59839	D06BB06	Antibiotics and chemotherapeutics for dermatological use	13.71	C0164815	DB00299
+penicillamine	7975	M01CC01	Anti-inflammatory and antirheumatic products	23.57	C0030817	DB00859
+penicillin g	7980	J01CE01	Antibacterials for systemic use	30.17	C0030827	DB01053
+penicillin v	7984	J01CE02	Antibacterials for systemic use	0.88	C0030840	DB00417
+pentagastrin	7993	V04CG04	Diagnostic agents	NA	C0030859	DB00183
+pentazocine	8001	N02AD01	Analgesics	4.51	C0030873	DB00652
+pentobarbital	8004	N05CA01	Psycholeptics	11.51	C0030883	DB00312
+pentosan polysulfate	155046	C05BA04	Vasoprotectives	12.36	C0600296	DB00686
+pentostatin	8011	L01XX08	Antineoplastic agents	184.74	C0030896	DB00552
+pentoxifylline	8013	C04AD03	Peripheral vasodilators	0.63	C0030899	DB00806
+pergolide	8047	N04BC02	Anti-parkinson drugs	4.09	C0031007	DB01186
+perhexiline	8050	C08EX02	Calcium channel blockers	NA	C0031013	DB01074
+perindopril	54552	C09AA04	Agents acting on the renin-angiotensin system	1.7	C0136123	DB00790
+permethrin	33199	P03AC04	Ectoparasiticides, including scabicides, insecticides and repellents	17.19	C0070455	DB04930
+perphenazine	8076	N05AB03	Psycholeptics	1.2	C0031184	DB00850
+phenacemide	33253	N03AX07	Antiepileptics	3.8	C0070525	DB01121
+phenacetin	8113	N02BE03	Analgesics	NA	C0031364	NA
+phenazopyridine	8120	G04BX06	Urologicals	1.23	C0031379	DB01438
+phendimetrazine	33272	NA	NA	0.69	C0070549	DB01579
+phenelzine	8123	N06AF03	Psychoanaleptics	2.58	C0031392	DB00780
+phenformin	8129	A10BA01	Drugs used in diabetes	NA	C0031404	DB00914
+phenindamine	33283	R06AX04	Antihistamines for systemic use	NA	C0070563	DB01619
+phenindione	8130	B01AA02	Antithrombotic agents	1.07	C0031406	DB00498
+pheniramine	8132	R06AB05	Antihistamines for systemic use	0.48	C0031408	DB01620
+phenobarbital	8134	N03AA02	Antiepileptics	0.23	C0031412	DB01174
+phenol	33290	C05BB05	Vasoprotectives	19.36	C0070570	DB03255
+phenolphthalein	155122	A06AB04	Drugs for constipation	3.37	C0600489	NA
+phenoxybenzamine	8149	C04AX02	Peripheral vasodilators	24.51	C0031441	DB00925
+phenprocoumon	8150	B01AA04	Antithrombotic agents	NA	C0031444	DB00946
+phensuximide	33309	N03AD02	Antiepileptics	NA	C0070592	DB00832
+phentermine	8152	A08AA01	Antiobesity preparations, excluding diet products	0.72	C0031447	DB00191
+phentolamine	8153	V03AB36	All other therapeutic products	15.77	C0031448	DB00692
+phenylbutazone	8160	M01AA01	Anti-inflammatory and antirheumatic products	2.79	C0031463	DB00812
+phenylephrine	8163	S01GA05	Ophthalmologicals	2.02	C0031469	DB00388
+phenylpropanolamine	8175	R01BA01	Nasal preparations	1.35	C0031495	DB00397
+phenyltoloxamine	33408	NA	NA	2.03	C0070709	NA
+phenytoin	8183	N03AB02	Antiepileptics	1.03	C0031507	DB00252
+physostigmine	8299	S01EB05	Ophthalmologicals	2.48	C0031849	DB00981
+phytosterols	8310	NA	NA	NA	C0031866	NA
+picosulfate sodium	33688	A06AB08	Drugs for constipation	NA	C0071042	NA
+pilocarpine	8328	N07AX01	Other nervous system drugs	1.65	C0031923	DB01085
+pimecrolimus	321952	D11AH02	Other dermatological preparations	9.4	C1099414	DB00337
+pimozide	8331	N05AG02	Psycholeptics	2.91	C0031935	DB01100
+pindolol	8332	C07AA03	Beta blocking agents	0.8	C0031937	DB00960
+pioglitazone	33738	A10BG03	Drugs used in diabetes	5.86	C0071097	DB01132
+piperacillin	8339	J01CA12	Antibacterials for systemic use	67.85	C0031955	DB00319
+piperazine	8340	P02CB01	Anthelmintics	NA	C0031957	DB00592
+pipobroman	8347	L01AX02	Antineoplastic agents	NA	C0031965	DB00236
+pirbuterol	33767	R03AC08	Drugs for obstructive airway diseases	4.47	C0071129	DB01291
+pirenzepine	8352	A02BX03	Drugs for acid related disorders	NA	C0031978	DB00670
+piretanide	33770	C03CA03	Diuretics	NA	C0071132	NA
+piroxicam	8356	S01BC06	Ophthalmologicals	0.87	C0031990	DB00554
+pitavastatin	861634	C10AA08	Lipid modifying agents	4.19	C1101838	DB08860
+pivampicillin	8372	J01CA02	Antibacterials for systemic use	NA	C0032032	DB01604
+plerixafor	733003	L03AX16	Immunostimulants	5907.73	C1955474	DB06809
+plicamycin	6995	L01DC02	Antineoplastic agents	NA	C0026234	DB06810
+podofilox	8463	D06BB04	Antibiotics and chemotherapeutics for dermatological use	15.59	C0032334	DB01179
+polymyxin b	8536	A07AA05	Antidiarrheals, intestinal anti-inflammatory/anti-infective agents	1.58	C0032535	NA
+polythiazide	8565	C03AA05	Diuretics	1.13	C0032613	DB01324
+posaconazole	282446	J02AC04	Antimycotics for systemic use	125.85	C0936148	DB01263
+potassium citrate	54993	A12BA02	Mineral supplements	1.96	C0137996	DB09125
+practolol	8620	C07AB01	Beta blocking agents	NA	C0032896	DB01297
+pralidoxime	34345	V03AB04	All other therapeutic products	NA	C0071808	DB00733
+pramipexole	746741	N04BC05	Anti-parkinson drugs	2.8	C0074710	DB00413
+pramlintide	139953	A10BX05	Drugs used in diabetes	16.26	C0537551	DB01278
+pramoxine	34347	C05AD07	Vasoprotectives	5.66	C0071810	DB09345
+prasugrel	613391	B01AC22	Antithrombotic agents	6.82	C1620287	DB06209
+pravastatin	42463	C10AA03	Lipid modifying agents	0.54	C0085542	DB00175
+prazepam	8627	N05BA11	Psycholeptics	NA	C0032910	DB01588
+praziquantel	8628	P02BA01	Anthelmintics	37.72	C0032911	DB01058
+prazosin	8629	C02CA01	Antihypertensives	0.42	C0032912	DB00457
+prednicarbate	34369	D07AC18	Corticosteroids, dermatological preparations	2.71	C0071836	DB01130
+prednisolone	8638	S02BA03	Otologicals	2.09	C0032950	DB00860
+prednisone	8640	H02AB07	Corticosteroids for systemic use	0.32	C0032952	DB00635
+pregabalin	187832	N03AX16	Antiepileptics	6.11	C0657912	DB00230
+prenylamine	8674	C01DX02	Cardiac therapy	NA	C0033059	NA
+prilocaine	8686	N01BB04	Anesthetics	3.48	C0033124	DB00750
+primaquine	8687	P01BA03	Antiprotozoals	1.88	C0033126	DB01087
+primidone	8691	N03AA03	Antiepileptics	1.01	C0033148	DB00794
+probenecid	8698	M04AB01	Antigout preparations	0.92	C0033209	DB01032
+probucol	8699	C10AX02	Lipid modifying agents	NA	C0033215	DB01599
+procainamide	8700	C01BA02	Cardiac therapy	2.87	C0033216	DB01035
+procaine	8701	S01HA05	Ophthalmologicals	19.46	C0033218	DB00721
+procarbazine	8702	L01XB01	Antineoplastic agents	113.05	C0033223	DB01168
+procaterol	34530	R03AC16	Drugs for obstructive airway diseases	NA	C0072032	DB01366
+prochlorperazine	8704	N05AB04	Psycholeptics	1.38	C0033229	DB00433
+procyclidine	8718	N04AA04	Anti-parkinson drugs	1.84	C0033254	DB00387
+progabide	34568	N03AG05	Antiepileptics	NA	C0072076	DB00837
+progesterone	8727	G03DA04	Sex hormones and modulators of the genital system	3.2	C0033308	DB00396
+proguanil	2382	P01BB01	Antiprotozoals	5.97	C0008241	DB01131
+promazine	8742	N05AA03	Psycholeptics	4	C0033399	DB00420
+promethazine	8745	R06AD02	Antihistamines for systemic use	1.67	C0033405	DB01069
+propafenone	8754	C01BC03	Cardiac therapy	5.51	C0033429	DB01182
+propantheline	8761	A03AB05	Drugs for functional gastrointestinal disorders	1.34	C0033447	DB00782
+propiomazine	8770	N05CM06	Psycholeptics	NA	C0033473	DB00777
+propofol	8782	N01AX10	Anesthetics	12.47	C0033487	DB00818
+propranolol	8787	C07AA05	Beta blocking agents	0.79	C0033497	DB00571
+propylthiouracil	8794	H03BA02	Thyroid therapy	0.57	C0033511	DB00550
+protriptyline	8886	N06AA11	Psychoanaleptics	4.68	C0033743	DB00344
+pseudoephedrine	8896	R01BA02	Nasal preparations	2.2	C0033798	DB00852
+pyrazinamide	8987	J04AK01	Antimycobacterials	2.58	C0034239	DB00339
+pyridostigmine	9000	N07AA02	Other nervous system drugs	2.47	C0034261	DB00545
+pyrilamine	9009	D04AA02	Antipruritics, including antihistamines, anesthetics, etc.	3.4	C0034282	DB06691
+pyrimethamine	9010	P01BD01	Antiprotozoals	9.03	C0034283	DB00205
+quazepam	35185	N05CD10	Psycholeptics	4.25	C0072828	DB01589
+quetiapine	51272	N05AH04	Psycholeptics	7.02	C0123091	DB01224
+quinapril	35208	C09AA06	Agents acting on the renin-angiotensin system	0.67	C0072857	DB00881
+quinethazone	59743	C03BA02	Diuretics	NA	C0164608	DB01325
+quinidine	9068	C01BA01	Cardiac therapy	9.03	C0034414	DB00908
+quinine	9071	P01BC01	Antiprotozoals	4.14	C0034417	DB00468
+rabeprazole	114979	A02BC04	Drugs for acid related disorders	6.73	C0378482	DB01129
+raloxifene	72143	G03XC01	Sex hormones and modulators of the genital system	3.76	C0244404	DB00481
+raltegravir	719872	J05AX08	Antivirals for systemic use	32.14	C1871526	DB06817
+raltitrexed	196239	L01BA03	Antineoplastic agents	NA	C0677667	DB00293
+ramelteon	596205	N05CH02	Psycholeptics	3.92	C1565316	DB00980
+ramipril	35296	C09AA05	Agents acting on the renin-angiotensin system	0.91	C0072973	DB00178
+ranibizumab	595060	S01LA04	Ophthalmologicals	86.98	C1566537	DB01270
+ranitidine	9143	A02BA02	Drugs for acid related disorders	0.52	C0034665	DB00863
+ranolazine	35829	C01EB18	Cardiac therapy	8.14	C0073633	DB00243
+rasagiline	134748	N04BD02	Anti-parkinson drugs	11.59	C0525678	DB01367
+rasburicase	283821	V03AF07	All other therapeutic products	655.06	C0937932	DB00049
+reboxetine	60842	N06AX18	Psychoanaleptics	NA	C0168388	DB00234
+regorafenib	1312397	L01XE21	Antineoplastic agents	355.88	C2980094	DB08896
+regular insulin, human	253182	A10AD01	Drugs used in diabetes	NA	C0795635	DB00030
+remifentanil	73032	N01AH06	Anesthetics	NA	C0246631	DB00899
+remoxipride	35350	N05AL04	Psycholeptics	NA	C0073047	DB00409
+repaglinide	73044	A10BX02	Drugs used in diabetes	6.32	C0246689	DB00912
+rescinnamine	9259	C02AA01	Antihypertensives	NA	C0035167	DB01180
+reserpine	9260	C02AA02	Antihypertensives	0.8	C0035179	DB00206
+retapamulin	642274	D06AX13	Antibiotics and chemotherapeutics for dermatological use	8.85	C1703334	DB01256
+reteplase	76895	B01AD07	Antithrombotic agents	NA	C0256103	DB00015
+rho(d) immune globulin	35465	J06BB01	Immune sera and immunoglobulins	NA	C0073188	NA
+ribavirin	9344	J05AB04	Antivirals for systemic use	20.34	C0035525	DB00811
+rifabutin	55672	J04AB04	Antimycobacterials	19.91	C0140575	DB00615
+rifampin	9384	J04AB02	Antimycobacterials	2.79	C0035608	DB01045
+rifapentine	35617	J04AB05	Antimycobacterials	3.56	C0073372	DB01201
+rifaximin	35619	A07AA11	Antidiarrheals, intestinal anti-inflammatory/anti-infective agents	32.58	C0073374	DB01220
+rilpivirine	1102270	J05AG05	Antivirals for systemic use	22.83	C1566826	DB08864
+riluzole	35623	N07XX02	Other nervous system drugs	30.61	C0073379	DB00740
+rimantadine	9386	J05AC02	Antivirals for systemic use	2.62	C0035629	DB00478
+rimexolone	55681	S01BA13	Ophthalmologicals	2.15	C0140594	DB00896
+risedronate	73056	M05BA07	Drugs for treatment of bone diseases	3.42	C0246719	DB00884
+risperidone	35636	N05AX08	Psycholeptics	3.18	C0073393	DB00734
+ritodrine	9392	G02CA01	Other gynecologicals	NA	C0035661	DB00867
+ritonavir	85762	J05AE03	Antivirals for systemic use	14.35	C0292818	DB00503
+rituximab	121191	L01XC02	Antineoplastic agents	418.23	C0393022	DB00073
+rivaroxaban	1114195	B01AF01	Antithrombotic agents	9.13	C1739768	DB06228
+rivastigmine	183379	N06DA03	Psychoanaleptics	7.54	C0649350	DB00989
+rizatriptan	88014	N02CC04	Analgesics	18.17	C0297635	DB00953
+rofecoxib	232158	M01AH02	Anti-inflammatory and antirheumatic products	0	C0762662	NA
+roflumilast	1091836	R03DX07	Drugs for obstructive airway diseases	6.42	C0965618	DB01656
+rolitetracycline	9462	J01AA09	Antibacterials for systemic use	NA	C0035823	DB01301
+ropinirole	72302	N04BC04	Anti-parkinson drugs	1.76	C0244821	DB00268
+ropivacaine	35780	N01BB09	Anesthetics	17.28	C0073571	DB00296
+rosiglitazone	84108	A10BG02	Drugs used in diabetes	5	C0289313	DB00412
+rosoxacin	35797	J01MB01	Antibacterials for systemic use	NA	C0073591	DB00817
+rosuvastatin	301542	C10AA07	Lipid modifying agents	4.09	C0965129	DB01098
+rotigotine	616739	N04BC09	Anti-parkinson drugs	11.19	C1700683	DB05271
+roxithromycin	9478	J01FA06	Antibacterials for systemic use	NA	C0035891	DB00778
+rufinamide	69036	N03AF03	Antiepileptics	28.98	C0213404	DB06201
+salicylamide	9518	N02BA05	Analgesics	2.47	C0036071	DB08797
+salicylic acid	9525	D01AE12	Antifungals for dermatological use	4.45	C0036079	DB00936
+salmeterol	36117	R03AC12	Drugs for obstructive airway diseases	6.82	C0073992	DB00938
+salmon calcitonin	36118	H05BA01	Calcium homeostasis	NA	C0073994	DB00017
+salsalate	36108	N02BA06	Analgesics	0.77	C0073983	DB01399
+sapropterin	753340	A16AX07	Other alimentary tract and metabolism products	298.59	C0048897	DB00360
+saquinavir	83395	J05AE01	Antivirals for systemic use	25.19	C0286738	DB01232
+sargramostim	69634	L03AA09	Immunostimulants	176.63	C0216231	DB00020
+saxagliptin	857974	A10BH03	Drugs used in diabetes	7.49	C1611934	DB06335
+scopolamine	9601	A04AD01	Antiemetics and antinauseants	4.08	C0036442	DB00747
+secobarbital	9624	N05CA06	Psycholeptics	16.36	C0036516	DB00418
+secretin	9627	V04CK01	Diagnostic agents	20.52	C0036534	DB00021
+selegiline	9639	N04BD01	Anti-parkinson drugs	8.33	C0036579	DB01037
+selenium sulfide	36345	D01AE13	Antifungals for dermatological use	0.91	C0074281	DB00971
+sermorelin	56188	H01AC04	Pituitary and hypothalamic hormones and analogues	20.81	C0142046	DB00010
+sertaconazole	36435	D01AC14	Antifungals for dermatological use	6.7	C0074391	DB01153
+sertindole	41996	N05AE03	Psycholeptics	NA	C0084528	DB06144
+sertraline	36437	N06AB06	Psychoanaleptics	0.56	C0074393	DB01104
+sevelamer	214824	V03AE02	All other therapeutic products	17.4	C0718050	DB00658
+sevoflurane	36453	N01AB08	Anesthetics	34.46	C0074414	DB01236
+sibutramine	36514	A08AA10	Antiobesity preparations, excluding diet products	3.81	C0074493	DB01105
+sildenafil	136411	G04BE03	Urologicals	11.03	C0529793	DB00203
+silodosin	720825	G04CA04	Urologicals	4.23	C1870115	DB06207
+silver sulfadiazine	9793	D06BA01	Antibiotics and chemotherapeutics for dermatological use	0.91	C0037134	DB05245
+simeprevir	1482790	J05AE14	Antivirals for systemic use	795.3	C2605855	DB06290
+simvastatin	36567	C10AA01	Lipid modifying agents	0.87	C0074554	DB00641
+sinecatechins	753346	D06BB12	Antibiotics and chemotherapeutics for dermatological use	33.23	C1960121	DB01266
+sirolimus	35302	L04AA10	Immunosuppressants	24.88	C0072980	DB00877
+sitagliptin	593411	A10BH01	Drugs used in diabetes	6.67	C1565750	DB01261
+sodium citrate	56466	B05CB02	Blood substitutes and perfusion solutions	0.88	C0142825	DB09154
+sodium oxybate	9899	N01AX11	Anesthetics	129.49	C0037537	DB09072
+sodium phosphate	36709	A06AD17	Drugs for constipation	2.87	C0074757	DB09449
+sodium polystyrene sulfonate	56512	V03AE01	All other therapeutic products	7.21	C0142915	NA
+sodium stibogluconate	8010	P01CB02	Antiprotozoals	NA	C0030895	DB05630
+sodium sulfate	36721	A06AD13	Drugs for constipation	52.33	C0074769	DB09472
+sodium tetradecyl sulfate	9913	C05BB04	Vasoprotectives	37.73	C0037556	DB00464
+sofosbuvir	1484911	J05AX15	Antivirals for systemic use	1021.87	C3530148	NA
+solifenacin	322167	G04BD08	Urologicals	4.99	C1099677	DB01591
+somatropin	61148	H01AC01	Pituitary and hypothalamic hormones and analogues	105.59	C0169964	DB00052
+sorafenib	495881	L01XE05	Antineoplastic agents	204.65	C1516119	DB00398
+sotalol	9947	C07AA07	Beta blocking agents	0.76	C0037707	DB00489
+sparfloxacin	18469	J01MA09	Antibacterials for systemic use	NA	C0052585	DB01208
+spectinomycin	270	J01XX04	Antibacterials for systemic use	NA	C0001268	DB00919
+spinosad	299081	NA	NA	65.81	C0961781	DB08823
+spirapril	36908	C09AA11	Agents acting on the renin-angiotensin system	NA	C0075007	DB01348
+spironolactone	9997	C03DA01	Diuretics	0.49	C0037982	DB00421
+stannous fluoride	10030	A01AA04	Stomatological preparations	0.54	C0038143	DB11092
+stanozolol	10032	A14AA02	Anabolic agents for systemic use	4.02	C0038149	DB06718
+stavudine	59763	J05AF04	Antivirals for systemic use	7.69	C0164662	DB00649
+streptokinase	10106	B01AD01	Antithrombotic agents	0.64	C0038418	DB00086
+streptomycin	10109	J01GA01	Antibacterials for systemic use	3.77	C0038425	DB01082
+streptozocin	10114	L01AD04	Antineoplastic agents	62.46	C0038432	DB00428
+succimer	3446	V09CA02	Diagnostic radiopharmaceuticals	19.44	C0012384	DB00566
+sucralfate	10156	A02BX02	Drugs for acid related disorders	2.78	C0038633	DB00364
+sufentanil	56795	N01AH03	Anesthetics	852.54	C0143993	DB00708
+sulconazole	37319	D01AC09	Antifungals for dermatological use	3.76	C0075503	DB06820
+sulfacetamide	10169	S01AB04	Ophthalmologicals	3.12	C0038670	DB00634
+sulfadiazine	10171	J01EC02	Antibacterials for systemic use	9.3	C0038675	DB00359
+sulfadimethoxine	10172	J01ED01	Antibacterials for systemic use	NA	C0038676	DB06150
+sulfamerazine	10176	D06BA06	Antibiotics and chemotherapeutics for dermatological use	2.25	C0038684	DB01581
+sulfamethizole	10179	S01AB01	Ophthalmologicals	NA	C0038687	DB00576
+sulfamethoxazole	10180	J01EC01	Antibacterials for systemic use	0.61	C0038689	DB01015
+sulfamoxole	10183	J01EC03	Antibacterials for systemic use	NA	C0038700	DB08798
+sulfanilamide	10184	J01EB06	Antibacterials for systemic use	7.84	C0038702	DB00259
+sulfapyridine	10188	J01EB04	Antibacterials for systemic use	1.65	C0038710	DB00891
+sulfasalazine	9524	A07EC01	Antidiarrheals, intestinal anti-inflammatory/anti-infective agents	0.79	C0036078	DB00795
+sulfathiazole	10193	D06BA02	Antibiotics and chemotherapeutics for dermatological use	0.26	C0038722	DB06147
+sulfinpyrazone	10205	M04AB02	Antigout preparations	0	C0038742	DB01138
+sulfisoxazole	10207	J01EB05	Antibacterials for systemic use	2.06	C0038745	DB00263
+sulfisoxazole	10207	J01EB05	Antibacterials for systemic use	2.06	C0038745	DB08798
+sulfonated phenol	236718	NA	NA	NA	C0772023	NA
+sulfur	10223	D10AB02	Anti-acne preparations	3.84	C0038774	DB09353
+sulindac	10237	M01AB02	Anti-inflammatory and antirheumatic products	0.56	C0038792	DB00605
+sulpiride	10239	N05AL01	Psycholeptics	NA	C0038803	DB00391
+sumatriptan	37418	N02CC01	Analgesics	11.87	C0075632	DB00669
+sunitinib	357977	L01XE04	Antineoplastic agents	216.12	C1176020	DB01268
+suprofen	10255	M01AE07	Anti-inflammatory and antirheumatic products	NA	C0038878	DB00870
+synthetic conjugated estrogens, a	253166	G03CA57	Sex hormones and modulators of the genital system	NA	C0795604	DB09317
+synthetic conjugated estrogens, b	618365	G03CA57	Sex hormones and modulators of the genital system	NA	C1699236	DB09318
+tacrine	10318	N06DA01	Psychoanaleptics	10.2	C0039245	NA
+tacrolimus	42316	L04AD02	Immunosuppressants	13.8	C0085149	DB00864
+tadalafil	358263	G04BE08	Urologicals	10.09	C1176316	DB00820
+tafluprost	1244607	S01EE05	Ophthalmologicals	3.46	C1451502	DB08819
+talbutal	89810	N05CA07	Psycholeptics	NA	C0301407	DB00306
+tamoxifen	10324	L02BA01	Endocrine therapy	0.57	C0039286	DB00675
+tamsulosin	77492	G04CA02	Urologicals	1.66	C0257343	DB00706
+tapentadol	787390	N02AX06	Analgesics	11.39	C2001271	DB06204
+tazarotene	83947	D05AX05	Antipsoriatics	11.09	C0288792	DB00799
+tazobactam	37617	J01CG02	Antibacterials for systemic use	67.91	C0075870	DB01606
+tegaserod	139778	A06AX06	Drugs for constipation	6.03	C0537147	NA
+teicoplanin	57021	J01XA02	Antibacterials for systemic use	NA	C0145106	DB06149
+telaprevir	1102261	J05AE11	Antivirals for systemic use	596.33	C1876229	DB05521
+telbivudine	474128	J05AF11	Antivirals for systemic use	20.99	C1453933	DB01265
+telithromycin	274786	J01FA15	Antibacterials for systemic use	10.33	C0907410	DB00976
+telmisartan	73494	C09CA07	Agents acting on the renin-angiotensin system	2.86	C0248719	DB00966
+temafloxacin	37771	J01MA05	Antibacterials for systemic use	NA	C0076075	NA
+temazepam	10355	N05CD07	Psycholeptics	0.55	C0039468	DB00231
+temozolomide	37776	L01AX03	Antineoplastic agents	208.37	C0076080	DB00853
+temsirolimus	657797	L01XE09	Antineoplastic agents	388.58	C1707080	DB06287
+tenecteplase	259280	B01AD11	Antithrombotic agents	NA	C0872913	DB00031
+teniposide	10362	L01CB02	Antineoplastic agents	NA	C0039512	DB00444
+tenofovir disoproxil	300195	J05AF07	Antivirals for systemic use	40.97	C0963398	NA
+tenoxicam	37790	M01AC02	Anti-inflammatory and antirheumatic products	NA	C0076096	DB00469
+terazosin	37798	G04CA03	Urologicals	0.29	C0076107	DB01162
+terbinafine	37801	D01BA02	Antifungals for dermatological use	1.72	C0076110	DB00857
+terbutaline	10368	R03CC03	Drugs for obstructive airway diseases	1.66	C0039542	DB00871
+terconazole	37806	G01AG02	Gynecological antiinfectives and antiseptics	6	C0076115	DB00251
+terfenadine	42330	R06AX12	Antihistamines for systemic use	NA	C0085173	NA
+teriflunomide	1310520	L04AA31	Immunosuppressants	153.75	C1718383	DB08880
+teriparatide	32915	H05AA02	Calcium homeostasis	34.83	C0070093	DB06285
+terlipressin	57048	H01BA04	Pituitary and hypothalamic hormones and analogues	NA	C0145185	DB02638
+testosterone	10379	G03BA03	Sex hormones and modulators of the genital system	8.66	C0039601	DB00624
+tetrabenazine	10390	N07XX06	Other nervous system drugs	177.12	C0039623	DB04844
+tetracycline	10395	D06AA04	Antibiotics and chemotherapeutics for dermatological use	2.16	C0039644	DB00759
+tetrahydrocannabinol	10402	A04AD10	Antiemetics and antinauseants	NA	C0039663	DB00470
+thalidomide	10432	L04AX02	Immunosuppressants	196.09	C0039736	DB01041
+theobromine	10437	C03BD01	Diuretics	1.93	C0039763	DB01412
+theophylline	10438	R03DA04	Drugs for obstructive airway diseases	0.8	C0039771	DB00277
+thiamphenicol	10463	J01BA02	Antibacterials for systemic use	NA	C0039854	NA
+thiethylperazine	10471	R06AD03	Antihistamines for systemic use	NA	C0039865	NA
+thiopental	10493	N05CA19	Psycholeptics	9.06	C0039925	DB00599
+thioproperazine	10498	N05AB08	Psycholeptics	NA	C0039936	DB01622
+thioridazine	10502	N05AC02	Psycholeptics	0.52	C0039943	DB00679
+thiotepa	10473	L01AC01	Antineoplastic agents	42.39	C0039871	DB04572
+thiothixene	10510	N05AF04	Psycholeptics	3.62	C0039955	DB01623
+thonzonium	237058	NA	NA	NA	C0772395	NA
+thyroid (usp)	10572	H03AA05	Thyroid therapy	NA	C0040134	NA
+thyrotropin alfa	4952	H01AB01	Pituitary and hypothalamic hormones and analogues	795.5	C2587204	DB00024
+thyroxine	10582	H03AA01	Thyroid therapy	0.32	C0040165	DB00451
+tiagabine	31914	N03AG06	Antiepileptics	10.6	C0068897	DB00906
+ticagrelor	1116632	B01AC24	Antithrombotic agents	7.84	C1999375	DB08816
+ticarcillin	10591	J01CA13	Antibacterials for systemic use	44.27	C0040193	DB01607
+ticlopidine	10594	B01AC05	Antithrombotic agents	1.15	C0040207	DB00208
+tigecycline	384455	J01AA12	Antibacterials for systemic use	154.89	C1260298	DB00560
+timolol	10600	C07AA06	Beta blocking agents	1.88	C0040233	DB00373
+tinidazole	10612	J01XD02	Antibacterials for systemic use	20.03	C0040263	DB00911
+tinzaparin	69646	B01AB10	Antithrombotic agents	55.78	C0216278	DB06822
+tioconazole	38298	G01AF08	Gynecological antiinfectives and antiseptics	7.85	C0076705	DB01007
+tiopronin	6765	R05CB12	Cough and cold preparations	20.02	C0025405	DB06823
+tiotropium	69120	R03BB04	Drugs for obstructive airway diseases	6.54	C0213771	DB01409
+tipranavir	190548	J05AE09	Antivirals for systemic use	32.4	C0663733	DB00932
+tirofiban	73137	B01AC17	Antithrombotic agents	NA	C0247025	DB00775
+tizanidine	57258	M03BX02	Muscle relaxants	1.31	C0146011	DB00697
+tobramycin	10627	J01GB01	Antibacterials for systemic use	7.41	C0040341	DB00684
+tocainide	42359	C01BB03	Cardiac therapy	NA	C0085237	DB01056
+tocilizumab	612865	L04AC07	Immunosuppressants	63.84	C1609165	DB06273
+tofacitinib	1357536	L04AA29	Immunosuppressants	74.66	C2930696	DB08895
+tofisopam	38365	N05BA23	Psycholeptics	NA	C0076784	DB08811
+tolazamide	10633	A10BB05	Drugs used in diabetes	0.21	C0040372	DB00839
+tolazoline	10634	M02AX02	Topical products for joint and muscular pain	NA	C0040373	DB00797
+tolbutamide	10635	A10BB03	Drugs used in diabetes	0.58	C0040374	DB01124
+tolcapone	72937	N04BX01	Anti-parkinson drugs	35.33	C0246330	DB00323
+tolmetin	10636	M01AB03	Anti-inflammatory and antirheumatic products	2.65	C0040377	DB00500
+tolnaftate	10637	D01AE18	Antifungals for dermatological use	0.39	C0040379	DB00525
+tolrestat	38386	A10XA01	Drugs used in diabetes	NA	C0076808	NA
+tolterodine	119565	G04BD07	Urologicals	4.15	C0388753	DB01036
+topiramate	38404	N03AX11	Antiepileptics	3.12	C0076829	DB00273
+topotecan	57308	L01XX17	Antineoplastic agents	346.91	C0146224	DB01030
+toremifene	38409	L02BA02	Endocrine therapy	20.85	C0076836	DB00539
+torsemide	38413	C03CA04	Diuretics	0.68	C0076840	DB00214
+tramadol	10689	N02AX02	Analgesics	1.07	C0040610	DB00193
+trandolapril	38454	C09AA10	Agents acting on the renin-angiotensin system	1.85	C0076891	DB00519
+tranexamic acid	10691	B02AA02	Antihemorrhagics	22.31	C0040613	DB00302
+tranylcypromine	10734	N06AF04	Psychoanaleptics	6.17	C0040778	DB00752
+trastuzumab	224905	L01XC03	Antineoplastic agents	279.46	C0728747	DB00072
+travoprost	283809	S01EE04	Ophthalmologicals	3.82	C0937916	DB00287
+trazodone	10737	N06AX05	Psychoanaleptics	0.22	C0040805	DB00656
+treprostinil	343048	B01AC21	Antithrombotic agents	477.54	C1145760	DB00374
+tretinoin	10753	L01XX14	Antineoplastic agents	6.12	C0040845	DB00755
+triamcinolone	10759	R01AD11	Nasal preparations	1.68	C0040864	DB00620
+triamterene	10763	C03DB02	Diuretics	0.2	C0040869	DB00384
+triazolam	10767	N05CD05	Psycholeptics	0.82	C0040879	DB00897
+trichlormethiazide	10772	C03AA06	Diuretics	0.98	C0040899	DB01021
+triclosan	10795	D08AE04	Antiseptics and disinfectants	0.19	C0040958	DB08604
+tridihexethyl	38617	A03AB08	Drugs for functional gastrointestinal disorders	NA	C0077081	NA
+trientine	10798	A16AX12	Other alimentary tract and metabolism products	162.52	C0040976	DB06824
+trifluoperazine	10800	N05AB06	Psycholeptics	0.99	C0040979	DB00831
+triflupromazine	10805	N05AA05	Psycholeptics	NA	C0040989	DB00508
+trifluridine	10803	S01AD02	Ophthalmologicals	8.04	C0040987	DB00432
+triflusal	38655	B01AC18	Antithrombotic agents	NA	C0077126	DB08814
+trihexyphenidyl	10811	N04AA01	Anti-parkinson drugs	0.34	C0041009	DB00376
+triiodothyronine	10814	H03AA02	Thyroid therapy	NA	C0041014	DB00279
+trilostane	38668	H02CA01	Corticosteroids for systemic use	NA	C0077144	DB01108
+trimethadione	10827	N03AC02	Antiepileptics	NA	C0041038	DB00347
+trimethobenzamide	38685	R06AA10	Antihistamines for systemic use	3.5	C0077163	DB00662
+trimethoprim	10829	J01EA01	Antibacterials for systemic use	0.61	C0041041	DB00440
+trimetrexate	42333	P01AX07	Antiprotozoals	NA	C0085176	DB01157
+trimipramine	10834	N06AA06	Psychoanaleptics	5.83	C0041056	DB00726
+tripelennamine	10847	D04AA04	Antipruritics, including antihistamines, anesthetics, etc.	3.2	C0041090	DB00792
+triprolidine	10849	R06AX07	Antihistamines for systemic use	3.19	C0041098	DB00427
+troglitazone	72610	A10BG01	Drugs used in diabetes	NA	C0245514	NA
+troleandomycin	10864	J01FA08	Antibacterials for systemic use	0	C0041165	DB01361
+tropicamide	10869	S01FA06	Ophthalmologicals	0.95	C0041190	DB00809
+trospium	236778	G04BD09	Urologicals	3.98	C0772089	DB00209
+trovafloxacin	115552	J01MA13	Antibacterials for systemic use	NA	C0379881	DB00685
+trypsin	10890	B06AA07	Other hematological agents	4.89	C0041236	NA
+tubocurarine	10917	M03AA02	Muscle relaxants	NA	C0041345	DB01199
+tyloxapol	38998	R05CA01	Cough and cold preparations	NA	C0077539	DB06439
+urofollitropin	134404	G03GA04	Sex hormones and modulators of the genital system	254.12	C0524639	DB00094
+urokinase	11055	B01AD04	Antithrombotic agents	NA	C0042071	DB00013
+ursodeoxycholate	62427	A05AA02	Bile and liver therapy	NA	C0178882	DB01586
+ustekinumab	847083	L04AC05	Immunosuppressants	297.44	C1608841	DB05679
+valacyclovir	73645	J05AB11	Antivirals for systemic use	10.55	C0249458	DB00577
+valdecoxib	278567	M01AH03	Anti-inflammatory and antirheumatic products	2.89	C0913246	NA
+valganciclovir	275891	J05AB14	Antivirals for systemic use	73.31	C0909381	DB01610
+valproate	40254	N03AG01	Antiepileptics	16.07	C0080356	DB00313
+valproic acid	11118	N03AG01	Antiepileptics	1.78	C0042291	DB00313
+valrubicin	31435	L01DB09	Antineoplastic agents	553.83	C0068314	DB00385
+valsartan	69749	C09CA03	Agents acting on the renin-angiotensin system	2.98	C0216784	DB00177
+vancomycin	11124	J01XA01	Antibacterials for systemic use	77.3	C0042313	DB00512
+vardenafil	306674	G04BE09	Urologicals	8.08	C0971579	DB00862
+varenicline	591622	N07BA03	Other nervous system drugs	4.62	C1569608	DB01273
+vecuronium	71535	M03AC03	Muscle relaxants	9.59	C0242531	DB01339
+vemurafenib	1147220	L01XE15	Antineoplastic agents	315.36	C3192263	DB08881
+venlafaxine	39786	N06AX16	Psychoanaleptics	3.16	C0078569	DB00285
+verapamil	11170	C08DA01	Calcium channel blockers	0.84	C0042523	DB00661
+verteporfin	118886	S01LA01	Ophthalmologicals	391.87	C0387288	DB00460
+vidarabine	11194	S01AD06	Ophthalmologicals	35.98	C0042646	DB00194
+vigabatrin	14851	N03AG04	Antiepileptics	196.09	C0048044	DB01080
+vilanterol	1424884	R03AL03	Drugs for obstructive airway diseases	8.68	C2935023	DB09082
+vilazodone	1086769	N06AX24	Psychoanaleptics	4.72	C1530072	DB06684
+vildagliptin	596554	A10BH02	Drugs used in diabetes	NA	C1570906	DB04876
+vinblastine	11198	L01CA01	Antineoplastic agents	5.3	C0042670	DB00570
+vincristine	11202	L01CA02	Antineoplastic agents	3.56	C0042679	DB00541
+vindesine	11204	L01CA03	Antineoplastic agents	NA	C0042682	DB00309
+vinorelbine	39541	L01CA04	Antineoplastic agents	21.69	C0078257	DB00361
+voriconazole	121243	J02AC03	Antimycotics for systemic use	67.15	C0393080	DB00582
+vorinostat	194337	L01XX38	Antineoplastic agents	213.92	C0672708	DB02546
+vortioxetine	1455099	N06AX26	Psychoanaleptics	8.07	C3661282	DB09068
+warfarin	11289	B01AA03	Antithrombotic agents	0.43	C0043031	DB00682
+xylometazoline	39841	R01AA07	Nasal preparations	1.48	C0078643	DB06694
+zafirlukast	114970	R03DC01	Drugs for obstructive airway diseases	2.68	C0378466	DB00549
+zalcitabine	3363	J05AF03	Antivirals for systemic use	6.63	C0012132	DB00943
+zaleplon	74667	N05CF03	Psycholeptics	1.59	C0251504	DB00962
+zanamivir	69722	J05AH01	Antivirals for systemic use	9.18	C0216660	DB00558
+zidovudine	11413	J05AF01	Antivirals for systemic use	25.76	C0043474	DB00495
+zileuton	40575	NA	NA	24.68	C0081408	DB00744
+ziprasidone	115698	N05AE04	Psycholeptics	10.67	C0380393	DB00246
+zoledronic acid	77655	M05BA08	Drugs for treatment of bone diseases	105.75	C0257685	DB00399
+zolmitriptan	135775	N02CC03	Analgesics	19.17	C0528166	DB00315
+zolpidem	39993	N05CF02	Psycholeptics	1.22	C0078839	DB00425
+zomepirac	39994	M01AB04	Anti-inflammatory and antirheumatic products	NA	C0078840	NA
+zonisamide	39998	N03AX15	Antiepileptics	1.93	C0078844	DB00909
+zopiclone	40001	N05CF01	Psycholeptics	NA	C0078847	DB01198
+zuclopenthixol	114176	N05AF05	Psycholeptics	NA	C0376160	DB01624
