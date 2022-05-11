@@ -1,0 +1,14 @@
+{
+    "file_identifier": "test",
+    "output_dir": "dataset",
+    "seed": 42,
+    "n_combi": 100,
+    "n_rx": 10,
+    "average_rx": 3,
+    "patterns": {
+        "n_patterns": 3,
+        "min_rr": 2,
+        "max_rr": 3.6
+    },
+    "rr_var": 0.1
+}
