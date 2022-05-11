@@ -31,13 +31,13 @@ def read_config(path_to_config):
 
 
 def make_patterns(config):
-    """[summary]
+    """Generate patterns from the loaded config
 
     Args:
-        config ([type]): [description]
+        config (dict (JSON)): configuration
 
     Returns:
-        [type]: [description]
+        tuple (np.array, np.array): patterns and risks arrays
     """
     n_patterns = config["patterns"]["n_patterns"]
     min_rr = config["patterns"]["min_rr"]
@@ -48,6 +48,8 @@ def make_patterns(config):
     size_pattern = (n_patterns, config["n_rx"])
 
     patterns = np.random.binomial(n, p, size_pattern)
+
+    regen_duplicates
 
     risks = np.random.uniform(min_rr, max_rr, n_patterns)
 
@@ -81,7 +83,8 @@ def save_patterns(patterns, risks, config):
 
 
 def regen_duplicates(patterns, n, p):
-    """Regenerate patterns if there are duplicate entries in the patterns
+    """Regenerate patterns if there are duplicate entries in the patterns.
+    This function could infinitely loop given when the number of patterns is bigger than the powerset of possible patterns (2^n) where n is the number of Rx.  ¯\_(ツ)_/¯
     Show off recursion skills by adding it to a function
 
     Args:
