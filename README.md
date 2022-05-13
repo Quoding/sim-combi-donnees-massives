@@ -54,4 +54,4 @@ On utilise une normale de moyenne `disjoint_combinations:mean_rr` et d'ecart-typ
 2. Generer des combinaisons
 3. Generer des risques bases sur la similarite entre les combinaisons et les patrons.
 
-On peut voir ca comme une coupe qui deborde dans d'autres coupes, ou bien un arbre. Chaque patron est une racine duquel decoule plusieurs combinaisons. Une combinaison est associee a un patron si le patron est son voisin le plus proche selon la distance de Hamming. Cependant, une combinaison peut etre mis dans un autre ensemble a part si aucun medicament n'est partage entre la combinaison et le patron le plus proche.
+On peut voir ca comme une coupe qui deborde dans d'autres coupes, ou bien un arbre. Chaque patron est une racine duquel decoule plusieurs combinaisons. Une combinaison est associee a un patron si le patron est son voisin le plus proche selon la distance de Hamming. Cependant, une combinaison peut etre mise dans un autre ensemble a part si aucun medicament n'est partage entre la combinaison et le patron le plus proche.
