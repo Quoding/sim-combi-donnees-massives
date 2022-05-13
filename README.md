@@ -47,3 +47,11 @@ On utilise une normale d'ecart-type`inter_combinations:std_rr` et avec une moyen
 
 ### Combinaisons disjointe des patrons
 On utilise une normale de moyenne `disjoint_combinations:mean_rr` et d'ecart-type `disjoint_combinations:std_rr`. Les combinaisons reliees a un patron seront donc plus proche d'un RR predetermine par la configuration.
+
+
+## Idee generale
+1. Generer des patrons dangereux et des risques associes de maniere aleatoire
+2. Generer des combinaisons
+3. Generer des risques bases sur la similarite entre les combinaisons et les patrons.
+
+On peut voir ca comme une coupe qui deborde dans d'autres coupes, ou bien un arbre. Chaque patron est une racine duquel decoule plusieurs combinaisons. Une combinaison est associee a un patron si le patron est son voisin le plus proche selon la distance de Hamming. Cependant, une combinaison peut etre mis dans un autre ensemble a part si aucun medicament n'est partage entre la combinaison et le patron le plus proche.
