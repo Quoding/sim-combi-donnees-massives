@@ -5,11 +5,6 @@
     "n_combi": 10,
     "n_rx": 10,
     "average_rx": 4,
-    "patterns": {
-        "n_patterns": 3,
-        "min_rr": 2,
-        "max_rr": 3.6
-    },
     "disjoint_combinations": {
         "mean_rr": 1.0,
         "std_rr": 0.2
@@ -17,5 +12,10 @@
     "inter_combinations": {
         "std_rr": 0.1,
         "similarity_std": 1
+    },
+    "patterns": {
+        "n_patterns": 3,
+        "min_rr": 2,
+        "max_rr": 3.6
     }
 }

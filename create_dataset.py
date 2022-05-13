@@ -2,10 +2,12 @@ import argparse
 import json
 import logging
 import os
+import random
 
 import numpy as np
 import pandas as pd
 import scipy as sp
+import torch
 
 logging.basicConfig(level=logging.DEBUG)
 
@@ -23,6 +25,27 @@ def parse_args():
     return args
 
 
+def set_seed(args, config):
+    if args.seed is not None:
+        seed = args.seed
+    else:
+        seed = config["seed"]
+
+    logging.info(f"Setting seed to {seed}")
+
+    torch.manual_seed(seed)
+    random.seed(seed)
+    np.random.seed(seed)
+
+
+def check_gpu():
+    if torch.cuda.is_available():
+        logging.info("Torch detected a CUDA device. Using GPU for data generation...")
+        torch.set_default_tensor_type(torch.cuda.FloatTensor)
+    else:
+        logging.info("Torch did not detect a CUDA device. Won't be using GPU...")
+
+
 def read_config(path_to_config):
     logging.info(f"Loading configuration file: {path_to_config}")
     with open(path_to_config) as file:
@@ -30,30 +53,34 @@ def read_config(path_to_config):
     return config
 
 
-def make_patterns(config):
+def generate_patterns(config):
     """Generate patterns from the loaded config
 
     Args:
         config (dict (JSON)): configuration
 
     Returns:
-        tuple (np.array, np.array): patterns and risks arrays
+        tuple (torch.Tensor, torch.Tensor): patterns and risks tensors
     """
     n_patterns = config["patterns"]["n_patterns"]
     min_rr = config["patterns"]["min_rr"]
     max_rr = config["patterns"]["max_rr"]
+    n_rx = config["n_rx"]
+    average_rx = config["average_rx"]
 
-    n = 1
-    p = config["average_rx"] / config["n_rx"]
-    size_pattern = (n_patterns, config["n_rx"])
+    logging.info("Generating patterns and their risks...")
 
-    patterns = np.random.binomial(n, p, size_pattern)
+    p = average_rx / n_rx
+    size_pattern = (n_patterns, n_rx)
 
-    regen_duplicates
+    prob_matrix = torch.full(size_pattern, p)
 
-    risks = np.random.uniform(min_rr, max_rr, n_patterns)
+    patterns = torch.bernoulli(prob_matrix)
 
-    save_patterns(patterns, risks, config)
+    patterns = regen_bad_combis(patterns, p)
+
+    # Generate risks in [min_rr, max_rr] for each pattern
+    risks = (min_rr - max_rr) * torch.rand(n_patterns) + max_rr
 
     return patterns, risks
 
@@ -63,9 +90,9 @@ def save_patterns(patterns, risks, config):
 
 
     Args:
-        patterns (np.array):  array of generated patterns
-        risks (np.array): array of generated risks
-        config (dict): JSON-like dictionnary containing configuration for the dataset
+        patterns (torch.Tensor):  tensor of generated patterns
+        risks (torch.Tensor): tensor of generated risks
+        config (dict): dictionnary containing configuration parameters
     """
 
     directory = config["output_dir"]
@@ -73,45 +100,189 @@ def save_patterns(patterns, risks, config):
     out_path = f"{directory}/{filename}"
 
     dict_ = {
-        f"pattern_{i}": {"pattern": patterns[i].tolist(), "risk": risks[i]}
+        f"pattern_{i}": {
+            "pattern": patterns[i].tolist(),
+            "risk": round(risks[i].item(), 2),
+        }
         for i in range(len(patterns))
     }
+
+    logging.info(f"Saving patterns at {out_path}")
 
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, "w") as f:
         json.dump(dict_, f)
 
 
-def regen_duplicates(patterns, n, p):
-    """Regenerate patterns if there are duplicate entries in the patterns.
-    This function could infinitely loop given when the number of patterns is bigger than the powerset of possible patterns (2^n) where n is the number of Rx.  ¯\_(ツ)_/¯
-    Show off recursion skills by adding it to a function
+def regen_bad_combis(combinations, p):
+    """Regenerate combinations which are either duplicates of others or are filled with 0s.
+    Show off recursion skills by adding it to a function. ¯\_(ツ)_/¯
 
     Args:
-        patterns (np.array): array of patterns
-        n (n): n in a binomial distribution
+        combinations (torch.Tensor): tensor of combinations
         p (p): p in a binomial distribution
 
     Returns:
-        np.array : array of patterns with not duplicates but the right amount of patterns
+        torch.Tensor : tensor of correctly formed combinations
     """
-    uniques = np.unique(patterns, axis=0)
-    if uniques.shape == patterns.shape:
-        return patterns
+
+    assert combinations.shape[0] <= (
+        2 ** combinations.shape[1]
+    ), "Number of requested combinations is bigger than the powerset of Rx"
+
+    logging.info("Regenerating bad combinations...")
+
+    uniques = torch.unique(combinations, dim=0)
+    not_zero_idx = torch.where(uniques.sum(dim=1) != 0)
+    uniques = uniques[not_zero_idx]
+
+    if uniques.shape == combinations.shape:
+        logging.info("Ending recursion for regeneration!")
+        return combinations
     else:
-        num_to_regen = len(patterns) - len(uniques)
-        n_rx = patterns.shape[1]
-        patterns_to_add = np.random.binomial(n, p, (num_to_regen, n_rx))
-        new_patterns = np.concatenate((uniques, patterns_to_add), axis=0)
-        return regen_duplicates(new_patterns, n, p)
+        # Find out how many combis need regenerating
+        num_to_regen = len(combinations) - len(uniques)
+        n_rx = combinations.shape[1]
+
+        # Regenerate new patterns
+        prob_matrix = torch.full((num_to_regen, n_rx), p)
+        patterns_to_add = torch.bernoulli(prob_matrix)
+
+        # Cat them and recheck for duplicates
+        new_combis = torch.cat((uniques, patterns_to_add), dim=0)
+        return regen_bad_combis(new_combis, p)
+
+
+def generate_combinations(config, patterns, patterns_risks):
+    """Generate combinations and risks based on configuration
+
+    Args:
+        config (dict): dictionnary containing configuration parameters
+        patterns (torch.Tensor): tensor of patterns (2D)
+        patterns_risks (torch.Tensor): tensor of pattern risks (1D)
+
+    Returns:
+        tuple (torch.Tensor, torch.Tensor): tensor of combinations (2D) and tensor of risks (1D)
+    """
+    n_rx = config["n_rx"]
+    average_rx = config["average_rx"]
+    n_combi = config["n_combi"]
+
+    logging.info("Generating combinations and their risks...")
+
+    p = average_rx / n_rx
+    size_combi = (n_combi, n_rx)
+
+    prob_matrix = torch.full(size_combi, p)
+    combinations = torch.bernoulli(prob_matrix)
+
+    combinations = regen_bad_combis(combinations, p)
+
+    risks = generate_risks(combinations, patterns, patterns_risks, config)
+
+    return combinations, risks
+
+
+def save_combinations(combinations, risks, config, format_="csv"):
+    """Save combinations and their respective risks in the given format
+
+    Args:
+        combinations (torch.Tensor): tensor of combinations (2D)
+        risks (torch.Tensor): tensor of risks (1D)
+        config (dict): dictionnary containing configuration parameters
+        format_ (str, optional): Format in which to save the combinations/risks. Defaults to "csv".
+    """
+
+    directory = config["output_dir"]
+    filename = f"combinations/{config['file_identifier']}_{config['seed']}.csv"
+    out_path = f"{directory}/{filename}"
+
+    concat = torch.cat((combinations, risks.unsqueeze(1)), dim=1).cpu().numpy()
+
+    logging.info(f"Saving combinations at {out_path}")
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    np.savetxt(out_path, concat, fmt="%.2f", delimiter=",")
+
+
+def generate_risks(combinations, patterns, patterns_risks, config):
+    """Generate risks for generated combinations based on distance to patterns.
+
+    Args:
+        combinations (torch.Tensor): tensor of combinations (2D)
+        patterns (torch.Tensor): tensor of patterns (2D)
+        patterns_risks (torch.Tensor): tensor of pattern risks (1D)
+        config (dict): dictionnary containing configuration parameters
+
+    Returns:
+        torch.Tensor: tensor of risks for the combinations
+    """
+    # Get variables from config
+    n_patterns = config["patterns"]["n_patterns"]
+    n_rx = config["n_rx"]
+    n_combi = config["n_combi"]
+    similarity_std = bool(config["inter_combinations"]["similarity_std"])
+
+    # Unrelated combis are disjointed from patterns
+    disjoint_mean = config["disjoint_combinations"]["mean_rr"]
+    disjoint_std = config["disjoint_combinations"]["std_rr"]
+
+    # Related combis have at least one common Rx with patterns
+    inter_std = config["inter_combinations"]["std_rr"]
+
+    logging.info("Generating risks for combinations")
+
+    # For each combination, find the nearest pattern
+    dists = torch.cdist(combinations, patterns, p=1)
+    knn_dist, knn_idx = torch.topk(dists, 1, dim=1, largest=False)
+
+    # Find out where combinations have nothing in common with the nearest pattern
+    # If the hamming distance is exactly equal to the sum of both rows, then we have that case.
+    disjoint_bool = torch.where(
+        knn_dist.squeeze() == (combinations + patterns[knn_idx].squeeze()).sum(dim=1),
+        True,
+        False,
+    )
+
+    # Get the idx of combinations intersecting with their nearest pattern
+    inter_bool = torch.logical_not(disjoint_bool)
+
+    # Get the number of disjoint and not disjoint combinations
+    n_disjoint = disjoint_bool.sum()
+    n_inter = inter_bool.sum()
+
+    # Sample risks for disjoint combinations
+    disjoint_risks = torch.normal(
+        mean=torch.full((n_disjoint,), disjoint_mean),
+        std=torch.full((n_disjoint,), disjoint_std),
+    )
+
+    knn_idx_inter = knn_idx[inter_bool].squeeze()
+
+    # If `similarity_std` is True, widen the std around the mean inversely proportional to
+    # the similarity between the combination its pattern
+    # Else, similarity has no influence on std.
+    inter_added_std = similarity_std * knn_dist[inter_bool].squeeze() / n_rx
+
+    inter_risks = torch.normal(
+        mean=patterns_risks[knn_idx_inter],
+        std=torch.full((n_inter,), inter_std) + inter_added_std,
+    )
+
+    risks = torch.empty((n_combi))
+    risks[disjoint_bool] = disjoint_risks
+    risks[inter_bool] = inter_risks
+
+    return risks
 
 
 if __name__ == "__main__":
     args = parse_args()
     config = read_config(args.config)
-    if args.seed is not None:
-        seed = args.seed
-    else:
-        seed = config["seed"]
+    set_seed(args, config)
+    check_gpu()
+    patterns, p_risks = generate_patterns(config)
+    combinations, c_risks = generate_combinations(config, patterns, p_risks)
 
-    patterns, risks = make_patterns(config)
+    save_patterns(patterns, p_risks, config)
+    save_combinations(combinations, c_risks, config)
+    logging.info("Finished generating dataset!")

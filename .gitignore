@@ -1,3 +1,6 @@
+# Me specific exclusions
 .vscode/
+datasets/
+# file type exclusions
+*.out
 *.csv
-dasatet/
