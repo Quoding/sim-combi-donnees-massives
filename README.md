@@ -19,12 +19,13 @@
 * `seed`: Graine aleatoire pour le generateur
 * `n_combi`: Nombre de combinaisons a produire
 * `n_rx`: Nombre de medicaments possibles (nombre de colonnes)
-* `average_rx`: Nombre de medicaments moyen par combinaison (densite)
+* `mean_rx`: Nombre de medicaments moyen par combinaison (densite)
 
 * `patterns`: Sous-configuration relative aux patrons dangereux
     * `n_patterns`: Nombre de patron dangereux a produire
     * `min_rr`: RR minimal des patrons
     * `max_rr`: RR maximal des patrons
+    * `mean_rx`: Nombre moyen de Rx par patron
 
 * `disjoint_combinations`: Sous-configuration relative aux combinaisons disjointes des patrons dangereux
     * `mean_rr`: Moyenne de la normale pour le tirage du RR
@@ -33,7 +34,6 @@
 
 * `inter_combinations`: Sous-configuration relative aux combinaisons ayant une intersection non vide avec des patrons dangereux
     * `std_rr`: Variance de la normale pour le tirage du RR
-    * `similarity_std`: Booleen determinant si on utilise la similarite entre les patrons et les combinaisons afin de calculer le RR
 
 
 
@@ -55,3 +55,6 @@ On utilise une normale de moyenne `disjoint_combinations:mean_rr` et d'ecart-typ
 3. Generer des risques bases sur la similarite entre les combinaisons et les patrons.
 
 On peut voir ca comme une coupe qui deborde dans d'autres coupes, ou bien un arbre. Chaque patron est une racine duquel decoule plusieurs combinaisons. Une combinaison est associee a un patron si le patron est son voisin le plus proche selon la distance de Hamming. Cependant, une combinaison peut etre mise dans un autre ensemble a part si aucun medicament n'est partage entre la combinaison et le patron le plus proche.
+
+
+![Idee generale en image](images/sim-combi.png)

@@ -65,12 +65,12 @@ def generate_patterns(config):
     n_patterns = config["patterns"]["n_patterns"]
     min_rr = config["patterns"]["min_rr"]
     max_rr = config["patterns"]["max_rr"]
+    mean_rx = config["patterns"]["mean_rx"]
     n_rx = config["n_rx"]
-    average_rx = config["average_rx"]
 
     logging.info("Generating patterns and their risks...")
 
-    p = average_rx / n_rx
+    p = mean_rx / n_rx
     size_pattern = (n_patterns, n_rx)
 
     prob_matrix = torch.full(size_pattern, p)
@@ -165,12 +165,12 @@ def generate_combinations(config, patterns, patterns_risks):
         tuple (torch.Tensor, torch.Tensor): tensor of combinations (2D) and tensor of risks (1D)
     """
     n_rx = config["n_rx"]
-    average_rx = config["average_rx"]
+    mean_rx = config["mean_rx"]
     n_combi = config["n_combi"]
 
     logging.info("Generating combinations and their risks...")
 
-    p = average_rx / n_rx
+    p = mean_rx / n_rx
     size_combi = (n_combi, n_rx)
 
     prob_matrix = torch.full(size_combi, p)
@@ -178,18 +178,24 @@ def generate_combinations(config, patterns, patterns_risks):
 
     combinations = regen_bad_combis(combinations, p)
 
-    risks = generate_risks(combinations, patterns, patterns_risks, config)
+    risks, inter_bool, dists = generate_risks(
+        combinations, patterns, patterns_risks, config
+    )
 
-    return combinations, risks
+    return combinations, risks, inter_bool, dists
 
 
-def save_combinations(combinations, risks, config, format_="csv"):
+def save_combinations(
+    combinations, risks, config, inter_bool=None, dists=None, format_="csv"
+):
     """Save combinations and their respective risks in the given format
 
     Args:
         combinations (torch.Tensor): tensor of combinations (2D)
         risks (torch.Tensor): tensor of risks (1D)
         config (dict): dictionnary containing configuration parameters
+        inter_bool (torch.Tensor, optional): tensor of booleans indicating interesection between combinnations and patterns (1D). Defaults to None.
+        dists (torch.Tensor, optional): tensor of distances to nearest pattern (1D). Defaults to None.
         format_ (str, optional): Format in which to save the combinations/risks. Defaults to "csv".
     """
 
@@ -197,11 +203,20 @@ def save_combinations(combinations, risks, config, format_="csv"):
     filename = f"combinations/{config['file_identifier']}_{config['seed']}.csv"
     out_path = f"{directory}/{filename}"
 
-    concat = torch.cat((combinations, risks.unsqueeze(1)), dim=1).cpu().numpy()
+    header = [f"Rx{i}" for i in range(combinations.shape[1])] + ["risk"]
+    concat = torch.cat((combinations, risks.unsqueeze(1)), dim=1)
 
+    if inter_bool is not None:
+        concat = torch.cat((concat, inter_bool.unsqueeze(1)), dim=1)
+        header += ["inter"]
+    if dists is not None:
+        concat = torch.cat((concat, dists), dim=1)
+        header += ["dist"]
+
+    concat = concat.cpu().numpy()
     logging.info(f"Saving combinations at {out_path}")
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
-    np.savetxt(out_path, concat, fmt="%.2f", delimiter=",")
+    np.savetxt(out_path, concat, fmt="%.2f", delimiter=",", header=",".join(header))
 
 
 def generate_risks(combinations, patterns, patterns_risks, config):
@@ -234,21 +249,30 @@ def generate_risks(combinations, patterns, patterns_risks, config):
     # For each combination, find the nearest pattern
     dists = torch.cdist(combinations, patterns, p=1)
     knn_dist, knn_idx = torch.topk(dists, 1, dim=1, largest=False)
-
+    n_rx_combi_pat = (combinations + patterns[knn_idx].squeeze()).sum(dim=1)
     # Find out where combinations have nothing in common with the nearest pattern
     # If the hamming distance is exactly equal to the sum of both rows, then we have that case.
     disjoint_bool = torch.where(
-        knn_dist.squeeze() == (combinations + patterns[knn_idx].squeeze()).sum(dim=1),
+        knn_dist.squeeze() == n_rx_combi_pat,
         True,
         False,
     )
 
     # Get the idx of combinations intersecting with their nearest pattern
     inter_bool = torch.logical_not(disjoint_bool)
+    # Ids of the closest pattern to each combination that have intersections
+    knn_idx_inter = knn_idx[inter_bool].squeeze()
+
+    # Exact pattern match
+    exact_match_bool = torch.where(knn_dist.squeeze() == 0)
+    # Ids of the pattern that has an exact match with this combination
+    knn_idx_exact = knn_idx[exact_match_bool].squeeze()
 
     # Get the number of disjoint and not disjoint combinations
     n_disjoint = disjoint_bool.sum()
     n_inter = inter_bool.sum()
+    logging.info(f"Number of disjoint combinations {n_disjoint}")
+    logging.info(f"Number of intersecting combinations {n_inter}")
 
     # Sample risks for disjoint combinations
     disjoint_risks = torch.normal(
@@ -256,23 +280,25 @@ def generate_risks(combinations, patterns, patterns_risks, config):
         std=torch.full((n_disjoint,), disjoint_std),
     )
 
-    knn_idx_inter = knn_idx[inter_bool].squeeze()
-
     # If `similarity_std` is True, widen the std around the mean inversely proportional to
     # the similarity between the combination its pattern
     # Else, similarity has no influence on std.
     inter_added_std = similarity_std * knn_dist[inter_bool].squeeze() / n_rx
-
+    inter_mean = (
+        patterns_risks[knn_idx_inter]
+        - knn_dist[knn_idx_inter].squeeze() / n_rx_combi_pat[knn_idx_inter]
+    )
     inter_risks = torch.normal(
-        mean=patterns_risks[knn_idx_inter],
+        mean=inter_mean,
         std=torch.full((n_inter,), inter_std) + inter_added_std,
     )
 
-    risks = torch.empty((n_combi))
+    risks = torch.empty((n_combi,))
     risks[disjoint_bool] = disjoint_risks
     risks[inter_bool] = inter_risks
+    risks[exact_match_bool] = patterns_risks[knn_idx_exact]
 
-    return risks
+    return risks, inter_bool, knn_dist
 
 
 if __name__ == "__main__":
@@ -281,8 +307,16 @@ if __name__ == "__main__":
     set_seed(args, config)
     check_gpu()
     patterns, p_risks = generate_patterns(config)
-    combinations, c_risks = generate_combinations(config, patterns, p_risks)
+    combinations, c_risks, c_inter_bool, c_dists = generate_combinations(
+        config, patterns, p_risks
+    )
 
     save_patterns(patterns, p_risks, config)
-    save_combinations(combinations, c_risks, config)
+    save_combinations(
+        combinations,
+        c_risks,
+        config,
+        c_inter_bool,
+        c_dists,
+    )
     logging.info("Finished generating dataset!")
