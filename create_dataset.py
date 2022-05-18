@@ -235,7 +235,6 @@ def generate_risks(combinations, patterns, patterns_risks, config):
     n_patterns = config["patterns"]["n_patterns"]
     n_rx = config["n_rx"]
     n_combi = config["n_combi"]
-    similarity_std = bool(config["inter_combinations"]["similarity_std"])
 
     # Unrelated combis are disjointed from patterns
     disjoint_mean = config["disjoint_combinations"]["mean_rr"]
@@ -280,17 +279,14 @@ def generate_risks(combinations, patterns, patterns_risks, config):
         std=torch.full((n_disjoint,), disjoint_std),
     )
 
-    # If `similarity_std` is True, widen the std around the mean inversely proportional to
-    # the similarity between the combination its pattern
-    # Else, similarity has no influence on std.
-    inter_added_std = similarity_std * knn_dist[inter_bool].squeeze() / n_rx
+    # Adjust expectation for intersecting combinations
     inter_mean = (
         patterns_risks[knn_idx_inter]
         - knn_dist[knn_idx_inter].squeeze() / n_rx_combi_pat[knn_idx_inter]
     )
     inter_risks = torch.normal(
         mean=inter_mean,
-        std=torch.full((n_inter,), inter_std) + inter_added_std,
+        std=torch.full((n_inter,), inter_std),
     )
 
     risks = torch.empty((n_combi,))
