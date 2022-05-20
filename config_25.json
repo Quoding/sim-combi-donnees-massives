@@ -1,15 +1,15 @@
 {
-    "file_identifier": "25_rx_10000_combis_10_patterns",
+    "file_identifier": "25_rx_10000_combis_3_patterns",
     "output_dir": "datasets",
     "seed": 42,
     "n_combi": 10000,
     "n_rx": 25,
     "mean_rx": 5,
     "patterns": {
-        "n_patterns": 5,
+        "n_patterns": 3,
         "min_rr": 2,
         "max_rr": 3.6,
-        "mean_rx": 1
+        "mean_rx": 2
     },
     "disjoint_combinations": {
         "mean_rr": 1.0,
