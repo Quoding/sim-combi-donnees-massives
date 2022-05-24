@@ -293,6 +293,8 @@ def generate_risks(combinations, patterns, patterns_risks, config):
     risks[disjoint_bool] = disjoint_risks
     risks[inter_bool] = inter_risks
     risks[exact_match_bool] = patterns_risks[knn_idx_exact]
+    # Ensure no negative risks are possible
+    risks = torch.clip(risks, min=0)
 
     return risks, inter_bool, knn_dist
 
