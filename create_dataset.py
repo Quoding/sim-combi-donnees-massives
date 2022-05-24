@@ -17,7 +17,9 @@ logging.basicConfig(level=logging.DEBUG)
 def parse_args():
     parser = argparse.ArgumentParser(description="Process some integers.")
     parser.add_argument(
-        "--config", default="config.json", help="Path to the configuration file (JSON)"
+        "--config",
+        default="configs/config.json",
+        help="Path to the configuration file (JSON)",
     )
     parser.add_argument(
         "--seed",
