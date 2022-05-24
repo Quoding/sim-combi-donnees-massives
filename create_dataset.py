@@ -284,10 +284,15 @@ def generate_risks(combinations, patterns, patterns_risks, config):
     )
 
     # Adjust expectation for intersecting combinations
-    inter_mean = (
-        patterns_risks[knn_idx_inter]
-        - knn_dist[knn_idx_inter].squeeze() / n_rx_combi_pat[knn_idx_inter]
-    )
+    mean_adjust = knn_dist[knn_idx_inter].squeeze() / n_rx_combi_pat[knn_idx_inter]
+
+    # mean_adjust = (
+    #     patterns_risks[knn_idx_inter]
+    #     * knn_dist[knn_idx_inter].squeeze()
+    #     / n_rx_combi_pat[knn_idx_inter]
+    # )
+
+    inter_mean = patterns_risks[knn_idx_inter] - mean_adjust
     inter_risks = torch.normal(
         mean=inter_mean,
         std=torch.full((n_inter,), inter_std),
@@ -304,7 +309,7 @@ def generate_risks(combinations, patterns, patterns_risks, config):
 
 
 def n_combi_is_reasonable(config):
-    mean_rx_combi = config["mean_rx"]
+    mean_rx_combi = round(config["mean_rx"])
     n_rx_total = config["n_rx"]
     n_req_combis = config["n_combi"]
 
@@ -322,10 +327,20 @@ def print_warnings(config):
             "Number of requested combis is bigger than the expected possible number of combinations"
         )
         logging.warning(
-            "This could lead to an infinite loop of regenerating combinations where there are duplicates"
+            "This could lead to an infinite/very long loop of regenerating combinations where there are duplicates"
         )
         time.sleep(2)
         logging.warning("Continuing anyway...")
+
+
+def print_quick_stats(combinations, c_risks, thresh):
+    risky = torch.where(c_risks >= thresh, True, False)
+    n_risky = risky.sum()
+
+    logging.info("Quick stats:")
+    logging.info(f"Total number of combinations: {len(combinations)}")
+    logging.info(f"Number of risky combinations ({thresh=}): {n_risky}")
+    logging.info(f"That's {100 * n_risky / len(combinations)}% of the combinations")
 
 
 if __name__ == "__main__":
@@ -347,4 +362,5 @@ if __name__ == "__main__":
         c_inter_bool,
         c_dists,
     )
+    print_quick_stats(combinations, c_risks, 2)
     logging.info("Finished generating dataset!")
