@@ -3,6 +3,8 @@ import json
 import logging
 import os
 import random
+import math
+import time
 
 import numpy as np
 import pandas as pd
@@ -301,9 +303,35 @@ def generate_risks(combinations, patterns, patterns_risks, config):
     return risks, inter_bool, knn_dist
 
 
+def n_combi_is_reasonable(config):
+    mean_rx_combi = config["mean_rx"]
+    n_rx_total = config["n_rx"]
+    n_req_combis = config["n_combi"]
+
+    f = math.factorial
+    n_poss_combis_expec = f(n_rx_total) / (
+        f(mean_rx_combi) * f(n_rx_total - mean_rx_combi)
+    )
+
+    return n_poss_combis_expec >= n_req_combis
+
+
+def print_warnings(config):
+    if not n_combi_is_reasonable(config):
+        logging.warning(
+            "Number of requested combis is bigger than the expected possible number of combinations"
+        )
+        logging.warning(
+            "This could lead to an infinite loop of regenerating combinations where there are duplicates"
+        )
+        time.sleep(2)
+        logging.warning("Continuing anyway...")
+
+
 if __name__ == "__main__":
     args = parse_args()
     config = read_config(args.config)
+    print_warnings(config)
     set_seed(args, config)
     check_gpu(config)
     patterns, p_risks = generate_patterns(config)
