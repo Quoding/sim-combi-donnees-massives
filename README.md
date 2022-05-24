@@ -1,5 +1,10 @@
 # Simulateur de combinaisons de medicaments
 
+## TL;DR
+```python create_dataset.py [--config path/to/config.json --seed your_seed]```
+
+Canevas de `config.json` in `configs/`
+
 ## Exemple de donnees produites
 | Rx1 | Rx2 | Rx3 | Rx4 | ... | RxN | RR   |
 |-----|-----|-----|-----|-----|-----|------|
@@ -35,8 +40,6 @@
 
 * `inter_combinations`: Sous-configuration relative aux combinaisons ayant une intersection non vide avec des patrons dangereux
     * `std_rr`: Variance de la normale pour le tirage du RR
-
-
 
 
 ## Distributions utilisees
