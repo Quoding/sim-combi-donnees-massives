@@ -286,12 +286,6 @@ def generate_risks(combinations, patterns, patterns_risks, config):
     # Adjust expectation for intersecting combinations
     mean_adjust = knn_dist[knn_idx_inter].squeeze() / n_rx_combi_pat[knn_idx_inter]
 
-    # mean_adjust = (
-    #     patterns_risks[knn_idx_inter]
-    #     * knn_dist[knn_idx_inter].squeeze()
-    #     / n_rx_combi_pat[knn_idx_inter]
-    # )
-
     inter_mean = patterns_risks[knn_idx_inter] - mean_adjust
     inter_risks = torch.normal(
         mean=inter_mean,
