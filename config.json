@@ -5,6 +5,7 @@
     "n_combi": 10000,
     "n_rx": 25,
     "mean_rx": 8.7,
+    "use_gpu": 1,
     "patterns": {
         "n_patterns": 3,
         "min_rr": 2,

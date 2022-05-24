@@ -38,12 +38,14 @@ def set_seed(args, config):
     np.random.seed(seed)
 
 
-def check_gpu():
-    if torch.cuda.is_available():
+def check_gpu(config):
+    if torch.cuda.is_available() and config["use_gpu"]:
         logging.info("Torch detected a CUDA device. Using GPU for data generation...")
         torch.set_default_tensor_type(torch.cuda.FloatTensor)
     else:
-        logging.info("Torch did not detect a CUDA device. Won't be using GPU...")
+        logging.info(
+            "Torch did not detect a CUDA device or use_gpu=0 in config. Data generation will not use GPU..."
+        )
 
 
 def read_config(path_to_config):
@@ -303,7 +305,7 @@ if __name__ == "__main__":
     args = parse_args()
     config = read_config(args.config)
     set_seed(args, config)
-    check_gpu()
+    check_gpu(config)
     patterns, p_risks = generate_patterns(config)
     combinations, c_risks, c_inter_bool, c_dists = generate_combinations(
         config, patterns, p_risks
