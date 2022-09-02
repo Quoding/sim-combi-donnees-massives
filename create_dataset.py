@@ -23,6 +23,7 @@ def parse_args():
     )
     parser.add_argument(
         "--seed",
+        type=int,
         help="Set seed of rng. Overrides config file's seed.",
     )
     args = parser.parse_args()
@@ -40,6 +41,8 @@ def set_seed(args, config):
     torch.manual_seed(seed)
     random.seed(seed)
     np.random.seed(seed)
+
+    return seed
 
 
 def check_gpu(config):
@@ -91,8 +94,9 @@ def generate_patterns(config):
     return patterns, risks
 
 
-def save_patterns(patterns, risks, config):
-    """Save pattern to file. File path is dictated by output_dir, file_identifier and seed* in config. Seed can be overwritten from arguments.
+def save_patterns(patterns, risks, config, seed):
+    """Save pattern to file. File path is dictated by output_dir, file_identifier and seed* in config.
+    *Seed can be overwritten from arguments.
 
 
     Args:
@@ -102,7 +106,7 @@ def save_patterns(patterns, risks, config):
     """
 
     directory = config["output_dir"]
-    filename = f"patterns/{config['file_identifier']}_{config['seed']}.json"
+    filename = f"patterns/{config['file_identifier']}_{seed}.json"
     out_path = f"{directory}/{filename}"
 
     dict_ = {
@@ -192,7 +196,7 @@ def generate_combinations(config, patterns, patterns_risks):
 
 
 def save_combinations(
-    combinations, risks, config, inter_bool=None, dists=None, format_="csv"
+    combinations, risks, config, seed, inter_bool=None, dists=None, format_="csv"
 ):
     """Save combinations and their respective risks in the given format
 
@@ -206,7 +210,7 @@ def save_combinations(
     """
 
     directory = config["output_dir"]
-    filename = f"combinations/{config['file_identifier']}_{config['seed']}.csv"
+    filename = f"combinations/{config['file_identifier']}_{seed}.csv"
     out_path = f"{directory}/{filename}"
 
     header = [f"Rx{i}" for i in range(combinations.shape[1])] + ["risk"]
@@ -329,34 +333,42 @@ def print_warnings(config):
         logging.warning("Continuing anyway...")
 
 
-def print_quick_stats(combinations, c_risks, thresh):
-    risky = torch.where(c_risks >= thresh, True, False)
+def print_quick_stats(combinations, c_risks, c_inter_bool, thresh):
+    risky = torch.where(c_risks > thresh, True, False)
+    risky_values = c_risks[risky]
     n_risky = risky.sum()
+    n_risky_and_inter = c_inter_bool[risky].sum()
 
     logging.info("Quick stats:")
     logging.info(f"Total number of combinations: {len(combinations)}")
     logging.info(f"Number of risky combinations ({thresh=}): {n_risky}")
     logging.info(f"That's {100 * n_risky / len(combinations)}% of the combinations")
+    logging.info(
+        f"Among the risky combinations, {n_risky_and_inter} are intersecting with a dangerous pattern"
+    )
+    logging.info(f"Minimum risk value: {risky_values.min()}")
+    logging.info(f"Maximum risk value: {risky_values.max()}")
 
 
 if __name__ == "__main__":
     args = parse_args()
     config = read_config(args.config)
     print_warnings(config)
-    set_seed(args, config)
+    seed_value = set_seed(args, config)
     check_gpu(config)
     patterns, p_risks = generate_patterns(config)
     combinations, c_risks, c_inter_bool, c_dists = generate_combinations(
         config, patterns, p_risks
     )
 
-    save_patterns(patterns, p_risks, config)
+    save_patterns(patterns, p_risks, config, seed_value)
     save_combinations(
         combinations,
         c_risks,
         config,
+        seed_value,
         c_inter_bool,
         c_dists,
     )
-    print_quick_stats(combinations, c_risks, 2)
+    print_quick_stats(combinations, c_risks, c_inter_bool, 1.1)
     logging.info("Finished generating dataset!")

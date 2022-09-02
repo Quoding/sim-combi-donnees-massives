@@ -1,9 +1,9 @@
 {
-    "file_identifier": "100_rx_100000_combis_10_patterns",
+    "file_identifier": "1000_rx_100000_combis_10_patterns",
     "output_dir": "datasets",
     "seed": 42,
     "n_combi": 100000,
-    "n_rx": 100,
+    "n_rx": 1000,
     "mean_rx": 8.7,
     "use_gpu": 0,
     "patterns": {

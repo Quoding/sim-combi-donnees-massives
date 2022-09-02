@@ -1,6 +1,7 @@
 # Me specific exclusions
 .vscode/
 datasets/
+analysis/images/
 # file type exclusions
 *.out
 *.csv
