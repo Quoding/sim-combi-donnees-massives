@@ -1,9 +1,9 @@
 import argparse
 import json
 import logging
+import math
 import os
 import random
-import math
 import time
 
 import numpy as np
@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.DEBUG)
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Process some integers.")
+    parser = argparse.ArgumentParser(description="Generate polypharmacy dataset")
     parser.add_argument(
         "--config",
         default="configs/config.json",

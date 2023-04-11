@@ -1,0 +1,23 @@
+{
+    "file_identifier": "test",
+    "output_dir": "datasets",
+    "seed": 42,
+    "n_patients": 3000000,
+    "n_timesteps": 20,
+    "n_rx": 19,
+    "mean_rx": 8.7,
+    "p1": 0.2,
+    "p2": 0.5,
+    "p3": 0.25,
+    "prob_stop": 0.1,
+    "patterns": {
+        "n_patterns": 10,
+        "alpha": 5,
+        "beta": 2,
+        "min_prob_outcome": 0.6,
+        "mean_rx": 8.7
+    },
+    "disjoint_combinations": {
+        "prob_outcome": 0.1
+    }
+}
